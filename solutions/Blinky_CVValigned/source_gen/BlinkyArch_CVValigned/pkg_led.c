@@ -1,0 +1,5 @@
+#include "pkg_led.h"
+
+
+
+#define compSrc_co_LedController_pt_LedControllerVoltage_voltage_ru_LedControllerVoltage_drp_LedControllerVoltage_execute(co_LedControllerpt_LedControllerVoltage)((co_LedControllerpt_LedControllerVoltage.voltage))

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="3ybz1rkr6yryh1t1olcuv3y8ha98xx0">
+  <files names="BaseTypes.arxml:Cla_CommonUnits.c:Cla_CommonUnits.h:DTMS.arxml:Rte_a05_arch_blinkySWC.c:Rte_a05_arch_blinkySWC.h:SIUnits.c:SIUnits.h:TypeSizeConfiguration (_01_Arch):_01_Arch.arxml:___SimulationRuntime.c:___SimulationRuntime.h:___TriggerInfo.c:___TriggerInfo.h:a00_units.c:a00_units.h:a01_types.c:a01_types.h:a02_interfaces.c:a02_interfaces.h:a03_constants.c:a03_constants.h:a05_arch.c:a05_arch.h:dd_a04_data.xml" />
+</product>
+

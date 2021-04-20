@@ -1,0 +1,27 @@
+<dataDictionary name="a04_data">
+  <entry name="voltage">
+    <type>adt_voltage </type>
+    <unit>V</unit>
+    <quantity></quantity>
+    <constraints>
+      <range>
+        <min>0</min>
+        <max>5</max>
+      </range>
+    </constraints>
+  </entry>
+  <entry name="dutyCycle">
+    <type>adt_duty </type>
+    <quantity></quantity>
+    <constraints>
+      <range>
+        <min>0</min>
+        <max>1</max>
+      </range>
+    </constraints>
+  </entry>
+  <entry name="minVoltage">
+    <type>double </type>
+    <constant quantity="voltage"></constant>
+  </entry>
+</dataDictionary>

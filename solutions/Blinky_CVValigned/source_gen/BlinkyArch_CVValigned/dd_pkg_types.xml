@@ -1,0 +1,22 @@
+<dataDictionary name="pkg_types">
+  <entry name="dc_duty">
+    <type>adt_duty </type>
+    <quantity></quantity>
+    <constraints>
+      <range>
+        <min>-1.0</min>
+        <max>1.0</max>
+      </range>
+    </constraints>
+  </entry>
+  <entry name="dc_pwm">
+    <type>uint16 </type>
+    <quantity></quantity>
+    <constraints>
+      <range>
+        <min>0</min>
+        <max>32768</max>
+      </range>
+    </constraints>
+  </entry>
+</dataDictionary>

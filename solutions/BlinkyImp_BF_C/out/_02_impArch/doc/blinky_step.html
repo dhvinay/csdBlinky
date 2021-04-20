@@ -1,0 +1,263 @@
+<html>
+  <head>
+    <title>Documentation for blinky_step</title>
+    <style>
+        a.trace:visited {text-decoration: none; color: #a3f69e;}
+        a.trace:link {text-decoration: none; color:green}
+        a.trace:hover {text-decoration: underline; color: green;}
+        a.trace:active {text-decoration: underline; color: blue;}
+        
+        a:visited { text-decoration: none; color: #7e79ce; }
+        a:active { text-decoration: none; color: blue; }
+        a:link {text-decoration: none; color: blue;}
+        a:hover {text-decoration: underline; color: blue;}
+        
+        implements {background-color: #4ce8a4;}
+        exemplifies {background-color: #a09e8a;}
+        test {background-color: #1be0dd;}
+        
+        .external { color: #00bfff; }
+        ul { list-style-type:"\2720\0020"; }
+        
+        .TT-container {position: relative;}
+        
+        .TT-value {
+          font-size: 75%;  
+          display: none;
+          background-color: #edecda;
+          color: black;
+          padding: 2px 3px 2px px;
+          white-space: pre;
+          text-decoration: none;
+          z-index: 99;
+        }
+        
+        .TT-container:hover .TT-value {
+          position: absolute;
+          top: -45px;
+          left: 150px;
+          display: inline;
+        }
+        
+        </style>
+    <style>
+        .footer{ 
+            position: fixed; 
+            text-align: center;
+            bottom: 0px;
+            width: 100%;
+        }
+        
+        html { font-family: Verdana, Arial, Helvetica, sans-serif; } h1 { color: #006487; } h2 { color: #147391; }
+        
+        added { color: #56a356;}
+        
+        removed { 
+            color: #FF00AB;
+            text-decoration: line-through;
+        }
+        
+        modified { color: #4076ed; }
+        
+        table.roundedCorners {
+            border: 2px solid;
+            border-color: #66b3ff;
+            border-radius: 13px;
+            border-spacing: 0px;
+        }
+        
+        table.roundedCorners td, 
+        table.roundedCorners th { 
+            border-bottom: 2px solid;
+            border-right: 2px solid;
+            border-color: #66b3ff;
+            padding: 10px; 
+        }
+        
+        tr:nth-child(even){background-color: #f2f2f2} 
+        
+        table.roundedCorners tr:last-child > td {
+            border-bottom: none;
+        }
+        
+        table.roundedCorners td:last-child {
+            border-right: none;
+        }
+        
+        table.roundedCorners th:last-child {
+            border-right: none;
+        }
+        
+        .underline {text-decoration: underline;}
+        </style>
+  </head>
+  <body>
+    <h2>Documentation for blinky_step</h2>
+    <p>Runnable Interfaces that are present in the implementation module are listed below</p>
+    <hr />
+    <p>
+      <a name="calcDuty"></a>
+      <h3>
+        <b>Runnable Interface Name: </b>
+        <b>calcDuty</b>
+      </h3>
+      <b>calcDuty</b>
+      <h4>
+        <u>Documentation</u>
+      </h4>
+      <table class="roundedCorners" width="95%">
+        <caption>Data Properties</caption>
+        <tr>
+          <th>Name</th>
+          <th>DD</th>
+          <th>DD Owner</th>
+          <th>Access</th>
+          <th>Usage</th>
+          <th>Datatype</th>
+          <th>Unit</th>
+          <th>Constraints</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>calcDuty_out</td>
+          <td></td>
+          <td></td>
+          <td>*calcDuty_out</td>
+          <td>outport</td>
+          <td>float </td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>volt</td>
+          <td></td>
+          <td></td>
+          <td>volt</td>
+          <td>inport</td>
+          <td>float </td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      
+      
+      
+      <p>
+        <a href="http://127.0.0.1:63320/node?ref=r%3A7c26ba9d-b464-461e-b9a7-c437e58cf8ed%28_02_impArch%29%2F4939527334537699898">Open calcDuty in CSD</a>
+      </p>
+      <hr />
+    </p>
+    <p>
+      <a name="initialise"></a>
+      <h3>
+        <b>Runnable Interface Name: </b>
+        <b>initialise</b>
+      </h3>
+      <b>initialise</b>
+      <h4>
+        <u>Documentation</u>
+      </h4>
+      <table class="roundedCorners" width="95%">
+        <caption>Data Properties</caption>
+        <tr>
+          <th>Name</th>
+          <th>DD</th>
+          <th>DD Owner</th>
+          <th>Access</th>
+          <th>Usage</th>
+          <th>Datatype</th>
+          <th>Unit</th>
+          <th>Constraints</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>duty_out</td>
+          <td></td>
+          <td></td>
+          <td>*duty_out</td>
+          <td>outport</td>
+          <td>float </td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      
+      
+      
+      <p>
+        <a href="http://127.0.0.1:63320/node?ref=r%3A7c26ba9d-b464-461e-b9a7-c437e58cf8ed%28_02_impArch%29%2F4939527334537699903">Open initialise in CSD</a>
+      </p>
+      <hr />
+    </p>
+    <p>
+      <a name="writeDuty"></a>
+      <h3>
+        <b>Runnable Interface Name: </b>
+        <b>writeDuty</b>
+      </h3>
+      <b>writeDuty</b>
+      <h4>
+        <u>Documentation</u>
+      </h4>
+      <table class="roundedCorners" width="95%">
+        <caption>Data Properties</caption>
+        <tr>
+          <th>Name</th>
+          <th>DD</th>
+          <th>DD Owner</th>
+          <th>Access</th>
+          <th>Usage</th>
+          <th>Datatype</th>
+          <th>Unit</th>
+          <th>Constraints</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>duty_out</td>
+          <td></td>
+          <td></td>
+          <td>duty_out</td>
+          <td>inport</td>
+          <td>float </td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>duty_out</td>
+          <td></td>
+          <td></td>
+          <td>*duty_out</td>
+          <td>outport</td>
+          <td>float </td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      
+      
+      
+      <p>
+        <a href="http://127.0.0.1:63320/node?ref=r%3A7c26ba9d-b464-461e-b9a7-c437e58cf8ed%28_02_impArch%29%2F4939527334537699910">Open writeDuty in CSD</a>
+      </p>
+      <hr />
+    </p>
+    <p>
+      <p>
+        <strong>NOTE:</strong>
+        <sup class="external">*</sup>
+         represents that the runnable has the corresponding functions in a separate file.
+      </p>
+      <div class="footer">
+        Last Generated by 
+        <i>oezqk7</i>
+         at 
+        <i>2021-04-16T19:55:42</i>
+      </div>
+    </p>
+  </body>
+</html>

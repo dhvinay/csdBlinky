@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/_spreferences/PlatformTemplates/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/_spreferences/TypeSizeConfiguration/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/solutions/BlinkyImp_BF_C/BlinkyImp_BF_C.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/BlinkyImp_GF_ARXML/BlinkyImp_GF_ARXML.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Blinky_CVValigned/Blinky_CVValigned.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Blinky_FromCSA/Blinky_FromCSA.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Blinky_FromPREEVISION/Blinky_FromPREEVISION.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Blinky_GF/Blinky_GF.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Blinky_GF_wIRV/Blinky_GF_wIRV.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

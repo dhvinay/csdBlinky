@@ -1,0 +1,366 @@
+<html>
+  <head>
+    <title>Documentation for _05_arch</title>
+    <style>
+        a.trace:visited {text-decoration: none; color: #a3f69e;}
+        a.trace:link {text-decoration: none; color:green}
+        a.trace:hover {text-decoration: underline; color: green;}
+        a.trace:active {text-decoration: underline; color: blue;}
+        
+        a:visited { text-decoration: none; color: #7e79ce; }
+        a:active { text-decoration: none; color: blue; }
+        a:link {text-decoration: none; color: blue;}
+        a:hover {text-decoration: underline; color: blue;}
+        
+        implements {background-color: #4ce8a4;}
+        exemplifies {background-color: #a09e8a;}
+        test {background-color: #1be0dd;}
+        
+        .external { color: #00bfff; }
+        ul { list-style-type:"\2720\0020"; }
+        
+        .TT-container {position: relative;}
+        
+        .TT-value {
+          font-size: 75%;  
+          display: none;
+          background-color: #edecda;
+          color: black;
+          padding: 2px 3px 2px px;
+          white-space: pre;
+          text-decoration: none;
+          z-index: 99;
+        }
+        
+        .TT-container:hover .TT-value {
+          position: absolute;
+          top: -45px;
+          left: 150px;
+          display: inline;
+        }
+        
+        </style>
+    <style>
+        .footer{ 
+            position: fixed; 
+            text-align: center;
+            bottom: 0px;
+            width: 100%;
+        }
+        
+        html { font-family: Verdana, Arial, Helvetica, sans-serif; } h1 { color: #006487; } h2 { color: #147391; }
+        
+        added { color: #56a356;}
+        
+        removed { 
+            color: #FF00AB;
+            text-decoration: line-through;
+        }
+        
+        modified { color: #4076ed; }
+        
+        table.roundedCorners {
+            border: 2px solid;
+            border-color: #66b3ff;
+            border-radius: 13px;
+            border-spacing: 0px;
+        }
+        
+        table.roundedCorners td, 
+        table.roundedCorners th { 
+            border-bottom: 2px solid;
+            border-right: 2px solid;
+            border-color: #66b3ff;
+            padding: 10px; 
+        }
+        
+        tr:nth-child(even){background-color: #f2f2f2} 
+        
+        table.roundedCorners tr:last-child > td {
+            border-bottom: none;
+        }
+        
+        table.roundedCorners td:last-child {
+            border-right: none;
+        }
+        
+        table.roundedCorners th:last-child {
+            border-right: none;
+        }
+        
+        .underline {text-decoration: underline;}
+        </style>
+  </head>
+  <body>
+    <h2>Documentation for _05_arch</h2>
+    <p>Runnable Interfaces that are present in the implementation module are listed below</p>
+    <hr />
+    <p>
+      <a name="ri_blinkyInit"></a>
+      <h3>
+        <b>Runnable Interface Name: </b>
+        <b>ri_blinkyInit</b>
+      </h3>
+      <b>ri_blinkyInit</b>
+      <h4>
+        <u>Documentation</u>
+      </h4>
+      <table class="roundedCorners" width="95%">
+        <caption>Data Properties</caption>
+        <tr>
+          <th>Name</th>
+          <th>DD</th>
+          <th>DD Owner</th>
+          <th>Access</th>
+          <th>Usage</th>
+          <th>Datatype</th>
+          <th>Unit</th>
+          <th>Constraints</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>initDuty</td>
+          <td>dutyCycle</td>
+          <td>_04_data</td>
+          <td>*initDuty</td>
+          <td>state-outport</td>
+          <td>adt_duty </td>
+          <td></td>
+          <td>range limits.minDutyCyc..limits.maxDutyCyc</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="roundedCorners" width="95%">
+        <br />
+        <br />
+        <caption>Constant Values</caption>
+        <tr>
+          <th>Name</th>
+          <th>Group Owner</th>
+          <th>Datatype</th>
+          <th>Value</th>
+          <th>Unit</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>limits.minDutyCyc</td>
+          <td>_03_constants</td>
+          <td>adt_duty </td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>limits.maxDutyCyc</td>
+          <td>_03_constants</td>
+          <td>adt_duty </td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      
+      
+      
+      <p>
+        <a href="http://127.0.0.1:63320/node?ref=r%3Afb78fff6-9664-464a-85d2-ca4eb86ef7cc%28_01_Arch%29%2F7077315457911180438">Open ri_blinkyInit in CSD</a>
+      </p>
+      <hr />
+    </p>
+    <p>
+      <a name="ri_dutyCalc"></a>
+      <h3>
+        <b>Runnable Interface Name: </b>
+        <b>ri_dutyCalc</b>
+      </h3>
+      <b>ri_dutyCalc</b>
+      <h4>
+        <u>Documentation</u>
+      </h4>
+      <table class="roundedCorners" width="95%">
+        <caption>Data Properties</caption>
+        <tr>
+          <th>Name</th>
+          <th>DD</th>
+          <th>DD Owner</th>
+          <th>Access</th>
+          <th>Usage</th>
+          <th>Datatype</th>
+          <th>Unit</th>
+          <th>Constraints</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>ip_v</td>
+          <td>voltage</td>
+          <td>_04_data</td>
+          <td>ip_v</td>
+          <td>inport</td>
+          <td>adt_voltage </td>
+          <td>V</td>
+          <td>range limits.minV..limits.maxV</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>op_duty</td>
+          <td>dutyCycle</td>
+          <td>_04_data</td>
+          <td>*op_duty</td>
+          <td>state-outport</td>
+          <td>adt_duty </td>
+          <td></td>
+          <td>range limits.minDutyCyc..limits.maxDutyCyc</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="roundedCorners" width="95%">
+        <br />
+        <br />
+        <caption>Constant Values</caption>
+        <tr>
+          <th>Name</th>
+          <th>Group Owner</th>
+          <th>Datatype</th>
+          <th>Value</th>
+          <th>Unit</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>limits.minV</td>
+          <td>_03_constants</td>
+          <td>adt_voltage </td>
+          <td>0 V</td>
+          <td>V</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>limits.maxV</td>
+          <td>_03_constants</td>
+          <td>adt_voltage </td>
+          <td>5 V</td>
+          <td>V</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>limits.minDutyCyc</td>
+          <td>_03_constants</td>
+          <td>adt_duty </td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>limits.maxDutyCyc</td>
+          <td>_03_constants</td>
+          <td>adt_duty </td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      
+      
+      
+      <p>
+        <a href="http://127.0.0.1:63320/node?ref=r%3Afb78fff6-9664-464a-85d2-ca4eb86ef7cc%28_01_Arch%29%2F7077315457911180574">Open ri_dutyCalc in CSD</a>
+      </p>
+      <hr />
+    </p>
+    <p>
+      <a name="ri_timer"></a>
+      <h3>
+        <b>Runnable Interface Name: </b>
+        <b>ri_timer</b>
+      </h3>
+      <b>ri_timer</b>
+      <h4>
+        <u>Documentation</u>
+      </h4>
+      <table class="roundedCorners" width="95%">
+        <caption>Data Properties</caption>
+        <tr>
+          <th>Name</th>
+          <th>DD</th>
+          <th>DD Owner</th>
+          <th>Access</th>
+          <th>Usage</th>
+          <th>Datatype</th>
+          <th>Unit</th>
+          <th>Constraints</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>calcDuty</td>
+          <td>dutyCycle</td>
+          <td>_04_data</td>
+          <td>calcDuty</td>
+          <td>state-inport</td>
+          <td>adt_duty </td>
+          <td></td>
+          <td>range limits.minDutyCyc..limits.maxDutyCyc</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>write_duty</td>
+          <td>dutyCycle</td>
+          <td>_04_data</td>
+          <td>*write_duty</td>
+          <td>outport</td>
+          <td>adt_duty </td>
+          <td></td>
+          <td>range limits.minDutyCyc..limits.maxDutyCyc</td>
+          <td></td>
+        </tr>
+      </table>
+      <table class="roundedCorners" width="95%">
+        <br />
+        <br />
+        <caption>Constant Values</caption>
+        <tr>
+          <th>Name</th>
+          <th>Group Owner</th>
+          <th>Datatype</th>
+          <th>Value</th>
+          <th>Unit</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>limits.minDutyCyc</td>
+          <td>_03_constants</td>
+          <td>adt_duty </td>
+          <td>0</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>limits.maxDutyCyc</td>
+          <td>_03_constants</td>
+          <td>adt_duty </td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      
+      
+      
+      <p>
+        <a href="http://127.0.0.1:63320/node?ref=r%3Afb78fff6-9664-464a-85d2-ca4eb86ef7cc%28_01_Arch%29%2F7077315457911181094">Open ri_timer in CSD</a>
+      </p>
+      <hr />
+    </p>
+    <p>
+      <p>
+        <strong>NOTE:</strong>
+        <sup class="external">*</sup>
+         represents that the runnable has the corresponding functions in a separate file.
+      </p>
+      <div class="footer">
+        Last Generated by 
+        <i>oezqk7</i>
+         at 
+        <i>2021-04-08T17:38:29</i>
+      </div>
+    </p>
+  </body>
+</html>

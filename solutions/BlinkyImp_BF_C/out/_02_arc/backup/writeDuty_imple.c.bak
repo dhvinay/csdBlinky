@@ -1,0 +1,60 @@
+#include "writeDuty_imple.h"
+
+
+
+
+/**		ADDITIONAL HEADERS START		**/
+/**		ADDITIONAL HEADERS END		**/
+
+
+
+extern void writeDuty(float in_duty);
+
+extern float duty;
+
+
+
+/**		ADDITIONAL DECLARATIONS START		**/
+/**		ADDITIONAL DECLARATIONS END		**/
+
+/* 
+ * runnableentity: writeDuty_imple
+ * 
+ * URL: http://127.0.0.1:63320/node?ref=r%3A7d74aca1-4eb5-4670-ac5c-0c52a7f82aee%28_02_arc%29%2F4939527334537709455
+ * 
+ * 
+ * 
+ * 
+ * Data Properties
+ * ----------------------------------------------------------------------------------------------------
+ * Name        DD    DD Owner    Access       Usage      Datatype    Unit    Constraints    Description    
+ * ----------------------------------------------------------------------------------------------------
+ * duty_out    -     -           *duty_out    outport    float       -       -              -              
+ * in_duty     -     -           in_duty      inport     float       -       -              -              
+ * ----------------------------------------------------------------------------------------------------
+ */
+
+
+/* 
+ * Execution function for Runnable writeDuty_imple
+ */
+void writeDuty_imple_execute(void *___nothing, float in_duty, float *duty_out) 
+{
+  /**		WRITEDUTY_IMPLE_EXECUTE DECLARATIONS 	START		**/
+  /**		WRITEDUTY_IMPLE_EXECUTE DECLARATIONS 	END		**/
+
+  /**		WRITEDUTY_IMPLE_EXECUTE	START		**/
+  /**		WRITEDUTY_IMPLE_EXECUTE	END		**/
+
+  
+  writeDuty(in_duty);
+  *duty_out = duty;
+  
+}
+
+
+
+
+/**		ADDITIONAL DEFINITIONS START		**/
+/**		ADDITIONAL DEFINITIONS END		**/
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-89dvqk50r72f0xqg97qbdlzlw1ju0gp">
+  <files names="BaseTypes.arxml:BlinkyArch_CVValigned.arxml:Cla_CommonUnits.c:Cla_CommonUnits.h:DTMS.arxml:Rte_pkg_led_co_LedController.c:Rte_pkg_led_co_LedController.h:SIUnits.c:SIUnits.h:TypeSizeConfiguration (BlinkyArch_CVValigned):___SimulationRuntime.c:___SimulationRuntime.h:___TriggerInfo.c:___TriggerInfo.h:advanced.h:dd_pkg_types.xml:normal.h:pkg_intf.c:pkg_intf.h:pkg_led.c:pkg_led.h:pkg_types.c:pkg_types.h:ru_LedControllerInitialize.c:ru_LedControllerInitialize.h:ru_LedControllerTimer.c:ru_LedControllerTimer.h:ru_LedControllerVoltage.c:ru_LedControllerVoltage.h:simple.h" />
+</product>
+

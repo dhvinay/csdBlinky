@@ -1,0 +1,1851 @@
+
+Validating 0 CLIENT-SERVER-TO-SIGNAL-GROUP-MAPPINGs found in system.
+
+Validating 0 CLIENT-SERVER-TO-SIGNAL-MAPPINGs found in system.
+Transformer prototypes for RemoteSignalClients
+Transformer prototypes for RemoteSignalServers
+
+Validating 0 SENDER-RECEIVER-TO-SIGNAL-MAPPINGs and/or SENDER-RECEIVER-TO-SIGNAL-GROUP-MAPPINGs found in system.
+Transformer prototypes for RemoteReceivers
+Transformer prototypes for RemoteSenders
+
+Optimizing buffers (phase 1)
+Checking for matching receivers for receiver: cp_LedController_co_LedController_pt_LedControllerVoltage_voltage
+   => No match found.
+
+Checking for matching receivers for receiver: cp_agcoEcuAbstraction_co_agcoEcuAbstraction_pt_agcoEcuAbstractionDuty_duty
+   => No match found.
+
+
+BEGIN Dumping Software componentTypes
+Component Type: co_LedController
+   SupportsMultipleInstantiation: true
+
+Component Type: co_agcoEcuAbstraction
+   SupportsMultipleInstantiation: true
+
+Component Type: Os
+   SupportsMultipleInstantiation: false
+
+Component Type: BswM
+   SupportsMultipleInstantiation: false
+
+Component Type: EcuM
+   SupportsMultipleInstantiation: false
+
+END Dumping Software componentTypes
+
+BEGIN Dumping Implementation Data Types
+Name: AppModeType
+  Symbol: AppModeType
+  Reference(s):
+    /AUTOSAR/Services/Os/AppModeType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint32
+      CompuMethod: /AUTOSAR/Services/Os/AppModeType_Enum
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: ApplicationStateType
+  Symbol: ApplicationStateType
+  Reference(s):
+    /AUTOSAR/Services/Os/ApplicationStateType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+      CompuMethod: /AUTOSAR/Services/Os/ApplicationStateType_Enum
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: ApplicationType
+  Symbol: ApplicationType
+  Reference(s):
+    /AUTOSAR/Services/Os/ApplicationType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+      CompuMethod: /AUTOSAR/Services/Os/ApplicationType_Enum
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: CounterType
+  Symbol: CounterType
+  Reference(s):
+    /AUTOSAR/Services/Os/CounterType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint32
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: EcuM_BootTargetType
+  Symbol: EcuM_BootTargetType
+  Reference(s):
+    /AUTOSAR/Services/EcuM/EcuM_BootTargetType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint8
+      CompuMethod: /AUTOSAR/Services/EcuM/CM_BootTargetType
+      DataConstr: /AUTOSAR/Services/EcuM/EcuM_BootTargetType_Constr
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: EcuM_ShutdownCauseType
+  Symbol: EcuM_ShutdownCauseType
+  Reference(s):
+    /AUTOSAR/Services/EcuM/EcuM_ShutdownCauseType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint8
+      CompuMethod: /AUTOSAR/Services/EcuM/CM_ShutdownCauseType
+      DataConstr: /AUTOSAR/Services/EcuM/EcuM_ShutdownCauseType_Constr
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: EcuM_ShutdownModeType
+  Symbol: EcuM_ShutdownModeType
+  Reference(s):
+    /AUTOSAR/Services/EcuM/EcuM_ShutdownModeType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint16
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint16
+      DataConstr: /AUTOSAR_Platform/DataConstrs/uint16
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: EcuM_ShutdownTargetType
+  Symbol: EcuM_ShutdownTargetType
+  Reference(s):
+    /AUTOSAR/Services/EcuM/EcuM_ShutdownTargetType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint8
+      CompuMethod: /AUTOSAR/Services/EcuM/CM_ShutdownTargetType
+      DataConstr: /AUTOSAR/Services/EcuM/EcuM_ShutdownTargetType_Constr
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: EcuM_StateType
+  Symbol: EcuM_StateType
+  Reference(s):
+    /AUTOSAR/Services/EcuM/EcuM_StateType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint8
+      CompuMethod: /AUTOSAR/Services/EcuM/CM_StateType
+      DataConstr: /AUTOSAR/Services/EcuM/EcuM_StateType_Constr
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: EcuM_TimeType
+  Symbol: EcuM_TimeType
+  Reference(s):
+    /AUTOSAR/Services/EcuM/EcuM_TimeType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint32
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint32
+      DataConstr: /AUTOSAR_Platform/DataConstrs/uint32
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: EcuM_UserType
+  Symbol: EcuM_UserType
+  Reference(s):
+    /AUTOSAR/Services/EcuM/EcuM_UserType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint8
+      DataConstr: /AUTOSAR_Platform/DataConstrs/uint8
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: EventMaskType
+  Symbol: EventMaskType
+  Reference(s):
+    /AUTOSAR_Os/ImplementationDataTypes/EventMaskType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint32
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint32
+      DataConstr: /AUTOSAR_Platform/DataConstrs/uint32
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: RestartType
+  Symbol: RestartType
+  Reference(s):
+    /AUTOSAR/Services/Os/RestartType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+      CompuMethod: /AUTOSAR/Services/Os/RestartType_Enum
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: Rte_TransformerClass
+  Symbol: Rte_TransformerClass
+  Reference(s):
+    /VSTAR/BswMd/Rte_TransformerClass
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+
+Name: Rte_TransformerError
+  Symbol: Rte_TransformerError
+  Reference(s):
+    /VSTAR/BswMd/Rte_TransformerError
+  Category: STRUCTURE
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+    Element(s):
+      Name: errorCode
+        Symbol: Rte_TransformerErrorCode
+        Reference(s):
+          /VSTAR/BswMd/Rte_TransformerError/errorCode
+        Category: TYPE_REFERENCE
+          TypeReferenceChain: -> Rte_TransformerErrorCode -> uint8
+      Name: transformerClass
+        Symbol: Rte_TransformerClass
+        Reference(s):
+          /VSTAR/BswMd/Rte_TransformerError/transformerClass
+        Category: TYPE_REFERENCE
+          TypeReferenceChain: -> Rte_TransformerClass -> uint8
+
+Name: Rte_TransformerErrorCode
+  Symbol: Rte_TransformerErrorCode
+  Reference(s):
+    /VSTAR/BswMd/Rte_TransformerErrorCode
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+
+Name: Std_ReturnType
+  Symbol: Std_ReturnType
+  Reference(s):
+    /AUTOSAR_Std/ImplementationDataTypes/Std_ReturnType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint8
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint8
+      DataConstr: /AUTOSAR_Platform/DataConstrs/uint8
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: Std_VersionInfoType
+  Symbol: Std_VersionInfoType
+  Reference(s):
+    /AUTOSAR_Std/ImplementationDataTypes/Std_VersionInfoType
+  Category: STRUCTURE
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+    Element(s):
+      Name: vendorID
+        Symbol: uint16
+        Reference(s):
+          /AUTOSAR_Std/ImplementationDataTypes/Std_VersionInfoType/vendorID
+        Category: TYPE_REFERENCE
+          TypeReferenceChain: -> uint16
+            BaseType: /AUTOSAR_Platform/BaseTypes/uint16
+            DataConstr: /AUTOSAR_Platform/DataConstrs/uint16
+            SwCalibrationAccess: NotAccessible
+            SwImplPolicy: Standard
+      Name: moduleID
+        Symbol: uint16
+        Reference(s):
+          /AUTOSAR_Std/ImplementationDataTypes/Std_VersionInfoType/moduleID
+        Category: TYPE_REFERENCE
+          TypeReferenceChain: -> uint16
+            BaseType: /AUTOSAR_Platform/BaseTypes/uint16
+            DataConstr: /AUTOSAR_Platform/DataConstrs/uint16
+            SwCalibrationAccess: NotAccessible
+            SwImplPolicy: Standard
+      Name: sw_major_version
+        Symbol: uint8
+        Reference(s):
+          /AUTOSAR_Std/ImplementationDataTypes/Std_VersionInfoType/sw_major_version
+        Category: TYPE_REFERENCE
+          TypeReferenceChain: -> uint8
+            BaseType: /AUTOSAR_Platform/BaseTypes/uint8
+            DataConstr: /AUTOSAR_Platform/DataConstrs/uint8
+            SwCalibrationAccess: NotAccessible
+            SwImplPolicy: Standard
+      Name: sw_minor_version
+        Symbol: uint8
+        Reference(s):
+          /AUTOSAR_Std/ImplementationDataTypes/Std_VersionInfoType/sw_minor_version
+        Category: TYPE_REFERENCE
+          TypeReferenceChain: -> uint8
+            BaseType: /AUTOSAR_Platform/BaseTypes/uint8
+            DataConstr: /AUTOSAR_Platform/DataConstrs/uint8
+            SwCalibrationAccess: NotAccessible
+            SwImplPolicy: Standard
+      Name: sw_patch_version
+        Symbol: uint8
+        Reference(s):
+          /AUTOSAR_Std/ImplementationDataTypes/Std_VersionInfoType/sw_patch_version
+        Category: TYPE_REFERENCE
+          TypeReferenceChain: -> uint8
+            BaseType: /AUTOSAR_Platform/BaseTypes/uint8
+            DataConstr: /AUTOSAR_Platform/DataConstrs/uint8
+            SwCalibrationAccess: NotAccessible
+            SwImplPolicy: Standard
+
+Name: TaskType
+  Symbol: TaskType
+  Reference(s):
+    /AUTOSAR_Os/ImplementationDataTypes/TaskType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint32
+      BaseType: /AUTOSAR_Platform/BaseTypes/uint32
+      DataConstr: /AUTOSAR_Platform/DataConstrs/uint32
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: TickType
+  Symbol: TickType
+  Reference(s):
+    /AUTOSAR/Services/Os/TickType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint32
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: TimeInMicrosecondsType
+  Symbol: TimeInMicrosecondsType
+  Reference(s):
+    /AUTOSAR/Services/Os/TimeInMicrosecondsType
+  Category: TYPE_REFERENCE
+    TypeReferenceChain: -> uint32
+      SwCalibrationAccess: NotAccessible
+      SwImplPolicy: Standard
+
+Name: boolean
+  Symbol: boolean
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/boolean
+    /VSTAR/boolean
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/boolean
+    DataConstr: /AUTOSAR_Platform/DataConstrs/boolean
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: float32
+  Symbol: float32
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/float32
+    /VSTAR/float32
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/float32
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: float64
+  Symbol: float64
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/float64
+    /VSTAR/float64
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/float64
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: sint16
+  Symbol: sint16
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/sint16
+    /VSTAR/sint16
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/sint16
+    DataConstr: /AUTOSAR_Platform/DataConstrs/sint16
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: sint16_least
+  Symbol: sint16_least
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/sint16_least
+    /VSTAR/sint16_least
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/sint32
+    DataConstr: /AUTOSAR_Platform/DataConstrs/sint16
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: sint32
+  Symbol: sint32
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/sint32
+    /VSTAR/sint32
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/sint32
+    DataConstr: /AUTOSAR_Platform/DataConstrs/sint32
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: sint32_least
+  Symbol: sint32_least
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/sint32_least
+    /VSTAR/sint32_least
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/sint32
+    DataConstr: /AUTOSAR_Platform/DataConstrs/sint32
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: sint64
+  Symbol: sint64
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/sint64
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/sint64
+    DataConstr: /AUTOSAR_Platform/DataConstrs/sint64
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: sint8
+  Symbol: sint8
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/sint8
+    /VSTAR/sint8
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/sint8
+    DataConstr: /AUTOSAR_Platform/DataConstrs/sint8
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: sint8_least
+  Symbol: sint8_least
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/sint8_least
+    /VSTAR/sint8_least
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/sint32
+    DataConstr: /AUTOSAR_Platform/DataConstrs/sint8
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: uint16
+  Symbol: uint16
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/uint16
+    /VSTAR/uint16
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/uint16
+    DataConstr: /AUTOSAR_Platform/DataConstrs/uint16
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: uint16_least
+  Symbol: uint16_least
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/uint16_least
+    /VSTAR/uint16_least
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/uint32
+    DataConstr: /AUTOSAR_Platform/DataConstrs/uint16
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: uint32
+  Symbol: uint32
+  Reference(s):
+    /AUTOSAR/Services/Os/uint32
+    /AUTOSAR_Platform/ImplementationDataTypes/uint32
+    /VSTAR/uint32
+  Platform type
+  Category: VALUE
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: uint32_least
+  Symbol: uint32_least
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/uint32_least
+    /VSTAR/uint32_least
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/uint32
+    DataConstr: /AUTOSAR_Platform/DataConstrs/uint32
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: uint64
+  Symbol: uint64
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/uint64
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/uint64
+    DataConstr: /AUTOSAR_Platform/DataConstrs/uint64
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: uint8
+  Symbol: uint8
+  Reference(s):
+    /AUTOSAR/Services/Os/uint8
+    /AUTOSAR_Platform/ImplementationDataTypes/uint8
+    /VSTAR/uint8
+  Platform type
+  Category: VALUE
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Name: uint8_least
+  Symbol: uint8_least
+  Reference(s):
+    /AUTOSAR_Platform/ImplementationDataTypes/uint8_least
+    /VSTAR/uint8_least
+  Platform type
+  Category: VALUE
+    BaseType: /AUTOSAR_Platform/BaseTypes/uint32
+    DataConstr: /AUTOSAR_Platform/DataConstrs/uint8
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+END Dumping Implementation Data Types
+
+BEGIN Dumping Application Data Types
+Component Type: co_LedController
+
+  Name: adt_duty
+    Reference(s):
+      /pkg_types/adt_duty
+    Mapped implementation data type: float64
+    Category: VALUE
+    DataConstr: /pkg_types/dc_duty
+    SwCalibrationAccess: ReadOnly
+    SwImplPolicy: Standard
+
+  Name: adt_voltage
+    Reference(s):
+      /pkg_types/adt_voltage
+    Mapped implementation data type: float64
+    Category: VALUE
+    CompuMethod: /pkg_types/voltage_CompuMethod
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Component Type: co_agcoEcuAbstraction
+
+  Name: adt_duty
+    Reference(s):
+      /pkg_types/adt_duty
+    Mapped implementation data type: float64
+    Category: VALUE
+    DataConstr: /pkg_types/dc_duty
+    SwCalibrationAccess: ReadOnly
+    SwImplPolicy: Standard
+
+  Name: adt_voltage
+    Reference(s):
+      /pkg_types/adt_voltage
+    Mapped implementation data type: float64
+    Category: VALUE
+    CompuMethod: /pkg_types/voltage_CompuMethod
+    SwCalibrationAccess: NotAccessible
+    SwImplPolicy: Standard
+
+Component Type: Os
+
+Component Type: BswM
+
+Component Type: EcuM
+
+END Dumping Application Data Types
+
+BEGIN Dumping SenderReceiver Receivers
+
+SwC Local Unqueued Receiver Instance
+   Name:                     cp_LedController_co_LedController_pt_LedControllerVoltage_voltage
+   Variable:                 /pkg_intf/if_voltage/voltage
+   AR Datatype:              /pkg_types/adt_voltage
+   Sw Def Props:             /pkg_intf/if_voltage/voltage
+   Sw Addr Method:           
+   Data Constr:              
+   Section Init Policy:      
+   Init Value Spec:          
+   Init Value:               
+   SWC type:                 co_LedController
+   R-Port:                   /pkg_led/co_LedController/pt_LedControllerVoltage
+   Impl datatype:            /AUTOSAR_Platform/ImplementationDataTypes/float64
+   Handle Out Of Range:      0
+   Variable Accesses:        /pkg_led/co_LedController/ib_LedController/ru_LedControllerVoltage/drp_LedControllerVoltage, 
+   Runnables:                /pkg_led/co_LedController/ib_LedController/ru_LedControllerVoltage, 
+   Invalidation Policy:      NONE (0)
+   Filter Type:              0
+   Enable Update:            FALSE
+   Alive Timeout:            0
+   Handle Never Received:    FALSE
+   Ioc Data Channel:         
+   Reads remote data from:   
+   Explicit Data Buffer:     Rte_RecBuf_cp_LedController_00_pt_LedControllerVoltage_voltage
+   Flag Data Buffer:         
+   Status Data Buffer:       
+   Byte Array Data Buffers:  
+   SWC inst:                 cp_LedController
+   SWC:                      /pkg_extract/pkg_agco/ECUFlatView/cp_LedController
+   Partition:                Core0
+   Is Measured:              FALSE (READ-ONLY)
+   Initialization Strategy:  Not Specified (0)
+   Connected local senders:  cp_agcoEcuAbstraction_co_agcoEcuAbstraction_pt_agcoEcuAbstractionVoltage_voltage, 
+   Connected remote senders: 
+   Triggering eventmappings: ev_LedControllerVoltage_cp_LedController (Task : ComTask, EventType : DATA-RECEIVED-EVENT), 
+   Data Received Events:     /pkg_led/co_LedController/ib_LedController/ev_LedControllerVoltage, 
+   Data Receive Error Events: 
+   Data Received Event Mappings: ev_LedControllerVoltage_cp_LedController, 
+   Data Received Wait Point Events: 
+   Data Receive Error Event Mappings: 
+   Triggering tasks:         ComTask, 
+   Adjusted alive timeout:   0
+   Tick support required:    FALSE
+
+SwC Local Unqueued Receiver Instance
+   Name:                     cp_agcoEcuAbstraction_co_agcoEcuAbstraction_pt_agcoEcuAbstractionDuty_duty
+   Variable:                 /pkg_intf/if_duty/duty
+   AR Datatype:              /pkg_types/adt_duty
+   Sw Def Props:             /pkg_intf/if_duty/duty
+   Sw Addr Method:           
+   Data Constr:              /pkg_types/dc_duty
+   Section Init Policy:      
+   Init Value Spec:          
+   Init Value:               
+   SWC type:                 co_agcoEcuAbstraction
+   R-Port:                   /pkg_ecu/co_agcoEcuAbstraction/pt_agcoEcuAbstractionDuty
+   Impl datatype:            /AUTOSAR_Platform/ImplementationDataTypes/float64
+   Handle Out Of Range:      0
+   Variable Accesses:        /pkg_ecu/co_agcoEcuAbstraction/ib_agcoEcuAbstraction/ru_agcoEcuAbstractionDuty/drp_agcoEcuAbstractionDuty, 
+   Runnables:                /pkg_ecu/co_agcoEcuAbstraction/ib_agcoEcuAbstraction/ru_agcoEcuAbstractionDuty, 
+   Invalidation Policy:      NONE (0)
+   Filter Type:              0
+   Enable Update:            FALSE
+   Alive Timeout:            0
+   Handle Never Received:    FALSE
+   Ioc Data Channel:         
+   Reads remote data from:   
+   Explicit Data Buffer:     Rte_RecBuf_cp_agcoEcuAbstraction_00_pt_agcoEcuAbstractionDuty_duty
+   Flag Data Buffer:         
+   Status Data Buffer:       
+   Byte Array Data Buffers:  
+   SWC inst:                 cp_agcoEcuAbstraction
+   SWC:                      /pkg_extract/pkg_agco/ECUFlatView/cp_agcoEcuAbstraction
+   Partition:                Core0
+   Is Measured:              FALSE (READ-ONLY)
+   Initialization Strategy:  Not Specified (0)
+   Connected local senders:  cp_LedController_co_LedController_pt_LedControllerDuty_duty, 
+   Connected remote senders: 
+   Triggering eventmappings: ev_ecuAbstractionDuty_cp_agcoEcuAbstraction (Task : ComTask, EventType : DATA-RECEIVED-EVENT), 
+   Data Received Events:     /pkg_ecu/co_agcoEcuAbstraction/ib_agcoEcuAbstraction/ev_ecuAbstractionDuty, 
+   Data Receive Error Events: 
+   Data Received Event Mappings: ev_ecuAbstractionDuty_cp_agcoEcuAbstraction, 
+   Data Received Wait Point Events: 
+   Data Receive Error Event Mappings: 
+   Triggering tasks:         ComTask, 
+   Adjusted alive timeout:   0
+   Tick support required:    FALSE
+
+END Dumping SenderReceiver Receivers
+
+BEGIN Dumping SenderReceiver Senders
+
+SwC Local Unqueued Sender Instance
+   Name:                     cp_LedController_co_LedController_pt_LedControllerDuty_duty
+   Variable:                 /pkg_intf/if_duty/duty
+   AR Datatype:              /pkg_types/adt_duty
+   Sw Def Props:             /pkg_intf/if_duty/duty
+   Sw Addr Method:           
+   Section Init Policy:      
+   Init Value Spec:          
+   Init Value:               
+   SWC type:                 co_LedController
+   P-Port:                   /pkg_led/co_LedController/pt_LedControllerDuty
+   Impl datatype:            /AUTOSAR_Platform/ImplementationDataTypes/float64
+   Tranmission Acknowledge:  FALSE
+   Acknowledge timeout:      0
+   Variable Accesses:        /pkg_led/co_LedController/ib_LedController/ru_LedControllerTimer/dsp_LedControllerDuty, 
+   Runnables:                /pkg_led/co_LedController/ib_LedController/ru_LedControllerTimer, 
+   Data Send Completed Events: 
+   Data Write Completed Events: 
+   Data Send Completed Event Mappings: 
+   Data Send Completed Wait Point Events: 
+   Data Write Completed Event Mappings: 
+   Invalidation Policy:      NONE (0)
+   Invalid Value:            
+   Writes to:                Rte_RecBuf_cp_agcoEcuAbstraction_00_pt_agcoEcuAbstractionDuty_duty, 
+   SWC inst:                 cp_LedController
+   SWC:                      /pkg_extract/pkg_agco/ECUFlatView/cp_LedController
+   Partition:                Core0
+   Is Measured:              FALSE (READ-ONLY)
+   Initialization Strategy:  Not Specified (0)
+   Connected local receivers: cp_agcoEcuAbstraction_co_agcoEcuAbstraction_pt_agcoEcuAbstractionDuty_duty, 
+   Connected remote receivers: 
+   Triggering eventmappings: ev_LedControllerTimer_cp_LedController (Task : OsTask, EventType : TIMING-EVENT), 
+   Triggering tasks:         OsTask, 
+   Feedback Access:          
+
+SwC Local Unqueued Sender Instance
+   Name:                     cp_agcoEcuAbstraction_co_agcoEcuAbstraction_pt_agcoEcuAbstractionVoltage_voltage
+   Variable:                 /pkg_intf/if_voltage/voltage
+   AR Datatype:              /pkg_types/adt_voltage
+   Sw Def Props:             /pkg_intf/if_voltage/voltage
+   Sw Addr Method:           
+   Section Init Policy:      
+   Init Value Spec:          
+   Init Value:               
+   SWC type:                 co_agcoEcuAbstraction
+   P-Port:                   /pkg_ecu/co_agcoEcuAbstraction/pt_agcoEcuAbstractionVoltage
+   Impl datatype:            /AUTOSAR_Platform/ImplementationDataTypes/float64
+   Tranmission Acknowledge:  FALSE
+   Acknowledge timeout:      0
+   Variable Accesses:        /pkg_ecu/co_agcoEcuAbstraction/ib_agcoEcuAbstraction/ru_agcoEcuAbstractionTimer/dsp_agcoEcuAbstractionVoltage, 
+   Runnables:                /pkg_ecu/co_agcoEcuAbstraction/ib_agcoEcuAbstraction/ru_agcoEcuAbstractionTimer, 
+   Data Send Completed Events: 
+   Data Write Completed Events: 
+   Data Send Completed Event Mappings: 
+   Data Send Completed Wait Point Events: 
+   Data Write Completed Event Mappings: 
+   Invalidation Policy:      NONE (0)
+   Invalid Value:            
+   Writes to:                Rte_RecBuf_cp_LedController_00_pt_LedControllerVoltage_voltage, 
+   SWC inst:                 cp_agcoEcuAbstraction
+   SWC:                      /pkg_extract/pkg_agco/ECUFlatView/cp_agcoEcuAbstraction
+   Partition:                Core0
+   Is Measured:              FALSE (READ-ONLY)
+   Initialization Strategy:  Not Specified (0)
+   Connected local receivers: cp_LedController_co_LedController_pt_LedControllerVoltage_voltage, 
+   Connected remote receivers: 
+   Triggering eventmappings: ev_agcoEcuAbstractionTimer_cp_agcoEcuAbstraction (Task : OsTask, EventType : TIMING-EVENT), 
+   Triggering tasks:         OsTask, 
+   Feedback Access:          
+
+END Dumping SenderReceiver Senders
+
+BEGIN Dumping ClientServer servers
+CCSSwCLocalServerInstance
+  Name: EcuM_P_ShutdownTarget_EcuM_SelectShutdownTarget
+  Is Accessible for MCD: No
+  Arguments:
+    shutdownTarget ( ImplementationDataType: EcuM_ShutdownTargetType, Direction: in, ServerImplPolicy: useArgumentType )
+    shutdownMode ( ImplementationDataType: EcuM_ShutdownModeType, Direction: in, ServerImplPolicy: useArgumentType )
+  QueueLength: 1
+  Interface: EcuM_ShutdownTarget
+  Operation: EcuM_SelectShutdownTarget
+  SwCType: EcuM
+  RequirePort: P_ShutdownTarget
+  OperationInvokedEvent: EV_SELECTSHUTDOWNTARGET
+  ServerRunnable: RE_SELECTSHUTDOWNTARGET
+  ServerRunnableSymbol: EcuM_SelectShutdownTarget
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: EcuM
+
+CCSSwCLocalServerInstance
+  Name: EcuM_P_ShutdownTarget_EcuM_GetShutdownTarget
+  Is Accessible for MCD: No
+  Arguments:
+    shutdownTarget ( ImplementationDataType: EcuM_ShutdownTargetType, Direction: out, ServerImplPolicy: useArgumentType )
+    shutdownMode ( ImplementationDataType: EcuM_ShutdownModeType, Direction: out, ServerImplPolicy: useArgumentType )
+  QueueLength: 1
+  Interface: EcuM_ShutdownTarget
+  Operation: EcuM_GetShutdownTarget
+  SwCType: EcuM
+  RequirePort: P_ShutdownTarget
+  OperationInvokedEvent: EV_GETSHUTDOWNTARGET
+  ServerRunnable: RE_GETSHUTDOWNTARGET
+  ServerRunnableSymbol: EcuM_GetShutdownTarget
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: EcuM
+
+CCSSwCLocalServerInstance
+  Name: EcuM_P_ShutdownTarget_EcuM_SelectShutdownCause
+  Is Accessible for MCD: No
+  Arguments:
+    target ( ImplementationDataType: EcuM_ShutdownCauseType, Direction: in, ServerImplPolicy: useArgumentType )
+  QueueLength: 1
+  Interface: EcuM_ShutdownTarget
+  Operation: EcuM_SelectShutdownCause
+  SwCType: EcuM
+  RequirePort: P_ShutdownTarget
+  OperationInvokedEvent: EV_SELECTSHUTDOWNCAUSE
+  ServerRunnable: RE_SELECTSHUTDOWNCAUSE
+  ServerRunnableSymbol: EcuM_SelectShutdownCause
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: EcuM
+
+CCSSwCLocalServerInstance
+  Name: EcuM_P_ShutdownTarget_EcuM_GetShutdownCause
+  Is Accessible for MCD: No
+  Arguments:
+    shutdownCause ( ImplementationDataType: EcuM_ShutdownCauseType, Direction: out, ServerImplPolicy: useArgumentType )
+  QueueLength: 1
+  Interface: EcuM_ShutdownTarget
+  Operation: EcuM_GetShutdownCause
+  SwCType: EcuM
+  RequirePort: P_ShutdownTarget
+  OperationInvokedEvent: EV_GETSHUTDOWNCAUSE
+  ServerRunnable: RE_GETSHUTDOWNCAUSE
+  ServerRunnableSymbol: EcuM_GetShutdownCause
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: EcuM
+
+CCSSwCLocalServerInstance
+  Name: EcuM_P_ShutdownTarget_EcuM_GetLastShutdownTarget
+  Is Accessible for MCD: No
+  Arguments:
+    shutdownTarget ( ImplementationDataType: EcuM_ShutdownTargetType, Direction: out, ServerImplPolicy: useArgumentType )
+    shutdownMode ( ImplementationDataType: EcuM_ShutdownModeType, Direction: out, ServerImplPolicy: useArgumentType )
+  QueueLength: 1
+  Interface: EcuM_ShutdownTarget
+  Operation: EcuM_GetLastShutdownTarget
+  SwCType: EcuM
+  RequirePort: P_ShutdownTarget
+  OperationInvokedEvent: EV_GETLASTSHUTDOWNTARGET
+  ServerRunnable: RE_GETLASTSHUTDOWNTARGET
+  ServerRunnableSymbol: EcuM_GetLastShutdownTarget
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: EcuM
+
+CCSSwCLocalServerInstance
+  Name: EcuM_P_BootTarget_EcuM_SelectBootTarget
+  Is Accessible for MCD: No
+  Arguments:
+    target ( ImplementationDataType: EcuM_BootTargetType, Direction: in, ServerImplPolicy: useArgumentType )
+  QueueLength: 1
+  Interface: EcuM_BootTarget
+  Operation: EcuM_SelectBootTarget
+  SwCType: EcuM
+  RequirePort: P_BootTarget
+  OperationInvokedEvent: EV_SELECTBOOTTARGET
+  ServerRunnable: RE_SELECTBOOTTARGET
+  ServerRunnableSymbol: EcuM_SelectBootTarget
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: EcuM
+
+CCSSwCLocalServerInstance
+  Name: EcuM_P_BootTarget_EcuM_GetBootTarget
+  Is Accessible for MCD: No
+  Arguments:
+    target ( ImplementationDataType: EcuM_BootTargetType, Direction: out, ServerImplPolicy: useArgumentType )
+  QueueLength: 1
+  Interface: EcuM_BootTarget
+  Operation: EcuM_GetBootTarget
+  SwCType: EcuM
+  RequirePort: P_BootTarget
+  OperationInvokedEvent: EV_GETBOOTTARGET
+  ServerRunnable: RE_GETBOOTTARGET
+  ServerRunnableSymbol: EcuM_GetBootTarget
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: EcuM
+
+CCSSwCLocalServerInstance
+  Name: Os_P_OsService_GetActiveApplicationMode
+  Is Accessible for MCD: No
+  Arguments:
+    currentAppMode ( ImplementationDataType: AppModeType, Direction: out, ServerImplPolicy: notSet )
+  QueueLength: 1
+  Interface: OsService
+  Operation: GetActiveApplicationMode
+  SwCType: Os
+  RequirePort: P_OsService
+  OperationInvokedEvent: OpInvokedEv_OsService_GetActiveApplicationMode
+  ServerRunnable: GetActiveApplicationMode
+  ServerRunnableSymbol: GetActiveApplicationMode
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: Os
+
+CCSSwCLocalServerInstance
+  Name: Os_P_OsService_TerminateApplication
+  Is Accessible for MCD: No
+  Arguments:
+    Application ( ImplementationDataType: ApplicationType, Direction: in, ServerImplPolicy: notSet )
+    RestartOption ( ImplementationDataType: RestartType, Direction: in, ServerImplPolicy: notSet )
+  QueueLength: 1
+  Interface: OsService
+  Operation: TerminateApplication
+  SwCType: Os
+  RequirePort: P_OsService
+  OperationInvokedEvent: OpInvokedEv_OsService_TerminateApplication
+  ServerRunnable: TerminateApplication
+  ServerRunnableSymbol: TerminateApplication
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: Os
+
+CCSSwCLocalServerInstance
+  Name: Os_P_OsService_GetApplicationState
+  Is Accessible for MCD: No
+  Arguments:
+    Application ( ImplementationDataType: ApplicationType, Direction: in, ServerImplPolicy: notSet )
+    Value ( ImplementationDataType: ApplicationStateType, Direction: out, ServerImplPolicy: notSet )
+  QueueLength: 1
+  Interface: OsService
+  Operation: GetApplicationState
+  SwCType: Os
+  RequirePort: P_OsService
+  OperationInvokedEvent: OpInvokedEv_OsService_GetApplicationState
+  ServerRunnable: GetApplicationState
+  ServerRunnableSymbol: GetApplicationState
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: Os
+
+CCSSwCLocalServerInstance
+  Name: Os_P_OsService_OsCounter_GetCounterValue
+  Is Accessible for MCD: No
+  Arguments:
+    value ( ImplementationDataType: TickType, Direction: out, ServerImplPolicy: notSet )
+  QueueLength: 1
+  Interface: OsService_OsCounter
+  Operation: GetCounterValue
+  SwCType: Os
+  RequirePort: P_OsService_OsCounter
+  OperationInvokedEvent: OpInvokedEv_OsService_OsCounter_GetCounterValue
+  ServerRunnable: GetCounterValue
+  ServerRunnableSymbol: GetCounterValue
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: Os
+
+CCSSwCLocalServerInstance
+  Name: Os_P_OsService_OsCounter_GetElapsedValue
+  Is Accessible for MCD: No
+  Arguments:
+    value ( ImplementationDataType: TickType, Direction: in-out, ServerImplPolicy: notSet )
+    elapsedValue ( ImplementationDataType: TickType, Direction: out, ServerImplPolicy: notSet )
+  QueueLength: 1
+  Interface: OsService_OsCounter
+  Operation: GetElapsedValue
+  SwCType: Os
+  RequirePort: P_OsService_OsCounter
+  OperationInvokedEvent: OpInvokedEv_OsService_OsCounter_GetElapsedValue
+  ServerRunnable: GetElapsedValue
+  ServerRunnableSymbol: GetElapsedValue
+  Partition: Core0
+  Clients: 
+  CalledClients: 
+  pSwCInstance: Os
+
+END Dumping ClientServer servers
+
+BEGIN Dumping ClientServer clients
+END Dumping ClientServer clients
+
+BEGIN Dumping SwC Internal-Trigger sources
+END Dumping SwC Internal-Trigger sources
+
+BEGIN Dumping SwC Internal-Trigger sinks
+END Dumping SwC Internal-Trigger sinks
+
+BEGIN Dumping SwC External-Trigger sources
+END Dumping SwC External-Trigger sources
+
+BEGIN Dumping SwC External-Trigger sinks
+END Dumping SwC External-Trigger sinks
+
+BEGIN Dumping Ecuc Partitions
+CVirtualPartition: Core0
+   Can be restarted: false
+   Executes BSW: true
+   Mapped Component Prototypes: 
+      /pkg_extract/pkg_agco/ECUFlatView/BswM
+      /pkg_extract/pkg_agco/ECUFlatView/EcuM
+      /pkg_extract/pkg_agco/ECUFlatView/Os
+      /pkg_extract/pkg_agco/ECUFlatView/cp_LedController
+      /pkg_extract/pkg_agco/ECUFlatView/cp_agcoEcuAbstraction
+   Mapped Tasks: 
+      /pkg_ecuc/Os/ComTask
+      /pkg_ecuc/Os/ModeTask
+      /pkg_ecuc/Os/OsTask
+      /pkg_ecuc/Os/STARTUP
+   CoreAssignment: 0
+   Trusted: yes
+   OsCounter: /pkg_ecuc/Os/OsCounter
+   Seconds per tick: 0.01
+   MaxNumberOfBytesCopiedPerCriticalSection: 1
+END Dumping Ecuc Partitions
+
+BEGIN Dumping Tasks
+Name: ComTask
+   Task Config: /pkg_ecuc/Os/ComTask
+   Task Priority: 1
+   Task Activation: 1
+   Task Preemption: FULL
+   Partition: Core0
+   Accessed Internal Resources:
+   Allocated Rte Alarms:
+   Allocated Rte Events:
+      Rte_Ev_ComTask (TASK RELEASE)
+
+Name: ModeTask
+   Task Config: /pkg_ecuc/Os/ModeTask
+   Task Priority: 1
+   Task Activation: 1
+   Task Preemption: FULL
+   Partition: Core0
+   Accessed Internal Resources:
+   Allocated Rte Alarms:
+   Allocated Rte Events:
+      Rte_Ev_ModeTask (TASK RELEASE)
+
+Name: OsTask
+   Task Config: /pkg_ecuc/Os/OsTask
+   Task Priority: 1
+   Task Activation: 1
+   Task Preemption: FULL
+   Partition: Core0
+   Accessed Internal Resources:
+   Allocated Rte Alarms:
+      Rte_Al_OsTask (TIMING EVENT)
+   Allocated Rte Events:
+
+Name: STARTUP
+   Task Config: /pkg_ecuc/Os/STARTUP
+   Task Priority: 1
+   Task Activation: 1
+   Task Preemption: NON
+   Partition: Core0
+   Accessed Internal Resources:
+   Allocated Rte Alarms:
+   Allocated Rte Events:
+
+END Dumping Tasks
+
+BEGIN Dumping Software componentInstances
+Component Instance: BswM
+   Component Type: BswM
+   Component Prototype: BswM
+   Instance Number: 0
+   SupportsMultipleInstantiation: false
+   Allocated To Partition: Core0
+
+Component Instance: EcuM
+   Component Type: EcuM
+   Component Prototype: EcuM
+   Instance Number: 1
+   SupportsMultipleInstantiation: false
+   Allocated To Partition: Core0
+
+Component Instance: Os
+   Component Type: Os
+   Component Prototype: Os
+   Instance Number: 2
+   SupportsMultipleInstantiation: false
+   Allocated To Partition: Core0
+
+Component Instance: cp_LedController
+   Component Type: co_LedController
+   Component Prototype: cp_LedController
+   Instance Number: 3
+   SupportsMultipleInstantiation: true
+   Allocated To Partition: Core0
+
+Component Instance: cp_agcoEcuAbstraction
+   Component Type: co_agcoEcuAbstraction
+   Component Prototype: cp_agcoEcuAbstraction
+   Instance Number: 4
+   SupportsMultipleInstantiation: true
+   Allocated To Partition: Core0
+
+END Dumping Software componentInstances
+
+BEGIN Dumping Runnable Entity Mapping
+Name: TEvt_BswM_MainFunctionToTask
+   EventIdName: TEvt_BswM_MainFunction_BswM
+   EventType: BSW-TIMING-EVENT
+   ExecutableInstanceName: BswM_MainFunction
+   Task Name: OsTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 2 Scenario: 2 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   BswCfg Name: BswM_Inst
+   Event (BSW-TIMING-EVENT): TEvt_BswM_MainFunction Period: 0.005 seconds (1 ticks)
+   BswModuleEntity: BEn_BswM_MainFunction { Symbol: BswM_MainFunction RequiresExtendedTask: False}
+
+Name: Evt_EcuM_MainFunctionToTask
+   EventIdName: Evt_EcuM_MainFunction_EcuM
+   EventType: BSW-TIMING-EVENT
+   ExecutableInstanceName: EcuM_MainFunction
+   Task Name: OsTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 3 Scenario: 2 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   BswCfg Name: EcuM_Inst
+   Event (BSW-TIMING-EVENT): Evt_EcuM_MainFunction Period: 0.01 seconds (1 ticks)
+   BswModuleEntity: EcuM_MainFunction { Symbol: EcuM_MainFunction RequiresExtendedTask: False}
+
+Name: EV_GETBOOTTARGETToTask
+   EventIdName: EV_GETBOOTTARGET_EcuM
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: RE_GETBOOTTARGET_EcuM
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: EcuM
+   Event (OPERATION-INVOKED-EVENT): EV_GETBOOTTARGET
+   Runnable: RE_GETBOOTTARGET { Symbol: EcuM_GetBootTarget Category: 1 RequiresExtendedTask: False}
+
+Name: EV_GETLASTSHUTDOWNTARGETToTask
+   EventIdName: EV_GETLASTSHUTDOWNTARGET_EcuM
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: RE_GETLASTSHUTDOWNTARGET_EcuM
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: EcuM
+   Event (OPERATION-INVOKED-EVENT): EV_GETLASTSHUTDOWNTARGET
+   Runnable: RE_GETLASTSHUTDOWNTARGET { Symbol: EcuM_GetLastShutdownTarget Category: 1 RequiresExtendedTask: False}
+
+Name: EV_GETSHUTDOWNCAUSEToTask
+   EventIdName: EV_GETSHUTDOWNCAUSE_EcuM
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: RE_GETSHUTDOWNCAUSE_EcuM
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: EcuM
+   Event (OPERATION-INVOKED-EVENT): EV_GETSHUTDOWNCAUSE
+   Runnable: RE_GETSHUTDOWNCAUSE { Symbol: EcuM_GetShutdownCause Category: 1 RequiresExtendedTask: False}
+
+Name: EV_GETSHUTDOWNTARGETToTask
+   EventIdName: EV_GETSHUTDOWNTARGET_EcuM
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: RE_GETSHUTDOWNTARGET_EcuM
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: EcuM
+   Event (OPERATION-INVOKED-EVENT): EV_GETSHUTDOWNTARGET
+   Runnable: RE_GETSHUTDOWNTARGET { Symbol: EcuM_GetShutdownTarget Category: 1 RequiresExtendedTask: False}
+
+Name: EV_SELECTBOOTTARGETToTask
+   EventIdName: EV_SELECTBOOTTARGET_EcuM
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: RE_SELECTBOOTTARGET_EcuM
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: EcuM
+   Event (OPERATION-INVOKED-EVENT): EV_SELECTBOOTTARGET
+   Runnable: RE_SELECTBOOTTARGET { Symbol: EcuM_SelectBootTarget Category: 1 RequiresExtendedTask: False}
+
+Name: EV_SELECTSHUTDOWNCAUSEToTask
+   EventIdName: EV_SELECTSHUTDOWNCAUSE_EcuM
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: RE_SELECTSHUTDOWNCAUSE_EcuM
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: EcuM
+   Event (OPERATION-INVOKED-EVENT): EV_SELECTSHUTDOWNCAUSE
+   Runnable: RE_SELECTSHUTDOWNCAUSE { Symbol: EcuM_SelectShutdownCause Category: 1 RequiresExtendedTask: False}
+
+Name: EV_SELECTSHUTDOWNTARGETToTask
+   EventIdName: EV_SELECTSHUTDOWNTARGET_EcuM
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: RE_SELECTSHUTDOWNTARGET_EcuM
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: EcuM
+   Event (OPERATION-INVOKED-EVENT): EV_SELECTSHUTDOWNTARGET
+   Runnable: RE_SELECTSHUTDOWNTARGET { Symbol: EcuM_SelectShutdownTarget Category: 1 RequiresExtendedTask: False}
+
+Name: OpInvokedEv_OsService_GetActiveApplicationModeToTask
+   EventIdName: OpInvokedEv_OsService_GetActiveApplicationMode_Os
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: GetActiveApplicationMode_Os
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: Os
+   Event (OPERATION-INVOKED-EVENT): OpInvokedEv_OsService_GetActiveApplicationMode
+   Runnable: GetActiveApplicationMode { Symbol: GetActiveApplicationMode Category: 1 RequiresExtendedTask: False}
+
+Name: OpInvokedEv_OsService_GetApplicationStateToTask
+   EventIdName: OpInvokedEv_OsService_GetApplicationState_Os
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: GetApplicationState_Os
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: Os
+   Event (OPERATION-INVOKED-EVENT): OpInvokedEv_OsService_GetApplicationState
+   Runnable: GetApplicationState { Symbol: GetApplicationState Category: 1 RequiresExtendedTask: False}
+
+Name: OpInvokedEv_OsService_OsCounter_GetCounterValueToTask
+   EventIdName: OpInvokedEv_OsService_OsCounter_GetCounterValue_Os
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: GetCounterValue_Os
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: Os
+   Event (OPERATION-INVOKED-EVENT): OpInvokedEv_OsService_OsCounter_GetCounterValue
+   Runnable: GetCounterValue { Symbol: GetCounterValue Category: 1 RequiresExtendedTask: False}
+
+Name: OpInvokedEv_OsService_OsCounter_GetElapsedValueToTask
+   EventIdName: OpInvokedEv_OsService_OsCounter_GetElapsedValue_Os
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: GetElapsedValue_Os
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: Os
+   Event (OPERATION-INVOKED-EVENT): OpInvokedEv_OsService_OsCounter_GetElapsedValue
+   Runnable: GetElapsedValue { Symbol: GetElapsedValue Category: 1 RequiresExtendedTask: False}
+
+Name: OpInvokedEv_OsService_TerminateApplicationToTask
+   EventIdName: OpInvokedEv_OsService_TerminateApplication_Os
+   EventType: OPERATION-INVOKED-EVENT
+   ExecutableInstanceName: TerminateApplication_Os
+   TriggeringTasks (Event is not mapped to a task):
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: Os
+   Event (OPERATION-INVOKED-EVENT): OpInvokedEv_OsService_TerminateApplication
+   Runnable: TerminateApplication { Symbol: TerminateApplication Category: 1 RequiresExtendedTask: False}
+
+Name: ev_LedControllerInitializeToTask
+   EventIdName: ev_LedControllerInitialize_cp_LedController
+   EventType: INIT-EVENT
+   ExecutableInstanceName: ru_LedControllerInitialize_cp_LedController
+   Task Name: ModeTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 0 Scenario: 5 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_LedController
+   Event (INIT-EVENT): ev_LedControllerInitialize
+   Runnable: ru_LedControllerInitialize { Symbol: ru_ledControllerInitialize Category: 1 RequiresExtendedTask: False}
+
+Name: ev_LedControllerTimerToTask
+   EventIdName: ev_LedControllerTimer_cp_LedController
+   EventType: TIMING-EVENT
+   ExecutableInstanceName: ru_LedControllerTimer_cp_LedController
+   Task Name: OsTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 0 Scenario: 2 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_LedController
+   Event (TIMING-EVENT): ev_LedControllerTimer Period: 0.05 seconds (5 ticks)
+   Runnable: ru_LedControllerTimer { Symbol: ru_LedControllerTimer Category: 1 RequiresExtendedTask: False}
+
+Name: ev_LedControllerVoltageToTask
+   EventIdName: ev_LedControllerVoltage_cp_LedController
+   EventType: DATA-RECEIVED-EVENT
+   ExecutableInstanceName: ru_LedControllerVoltage_cp_LedController
+   Task Name: ComTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 0 Scenario: 5 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_LedController
+   Event (DATA-RECEIVED-EVENT): ev_LedControllerVoltage
+   Runnable: ru_LedControllerVoltage { Symbol: ru_LedControllerVoltage Category: 1 RequiresExtendedTask: False}
+
+Name: ev_agcoEcuAbstractionInitializeToTask
+   EventIdName: ev_agcoEcuAbstractionInitialize_cp_agcoEcuAbstraction
+   EventType: INIT-EVENT
+   ExecutableInstanceName: ru_agcoEcuAbstractionInitialize_cp_agcoEcuAbstraction
+   Task Name: ModeTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 1 Scenario: 5 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_agcoEcuAbstraction
+   Event (INIT-EVENT): ev_agcoEcuAbstractionInitialize
+   Runnable: ru_agcoEcuAbstractionInitialize { Symbol: ru_agcoEcuAbstractionInitialize Category: 1 RequiresExtendedTask: False}
+
+Name: ev_agcoEcuAbstractionTimerToTask
+   EventIdName: ev_agcoEcuAbstractionTimer_cp_agcoEcuAbstraction
+   EventType: TIMING-EVENT
+   ExecutableInstanceName: ru_agcoEcuAbstractionTimer_cp_agcoEcuAbstraction
+   Task Name: OsTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 1 Scenario: 2 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_agcoEcuAbstraction
+   Event (TIMING-EVENT): ev_agcoEcuAbstractionTimer Period: 0.1 seconds (10 ticks)
+   Runnable: ru_agcoEcuAbstractionTimer { Symbol: ru_agcoEcuAbstractionTimer Category: 1 RequiresExtendedTask: False}
+
+Name: ev_ecuAbstractionDutyToTask
+   EventIdName: ev_ecuAbstractionDuty_cp_agcoEcuAbstraction
+   EventType: DATA-RECEIVED-EVENT
+   ExecutableInstanceName: ru_agcoEcuAbstractionDuty_cp_agcoEcuAbstraction
+   Task Name: ComTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 1 Scenario: 5 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_agcoEcuAbstraction
+   Event (DATA-RECEIVED-EVENT): ev_ecuAbstractionDuty
+   Runnable: ru_agcoEcuAbstractionDuty { Symbol: ru_agcoEcuAbstractionDuty Category: 1 RequiresExtendedTask: False}
+
+END Dumping Runnable Entity Mapping
+
+BEGIN Dumping Initialization Runnable Batches
+END Dumping Initialization Runnable Batches
+
+BEGIN Dumping WaitPointEvents
+END Dumping WaitPointEvents
+
+BEGIN Dumping Connections
+
+Intra To Intra SwC Data Connection
+   Name: Assembly Connector: /pkg_extract/pkg_agco/ECUFlatView/cp_LedController_pt_LedControllerDuty_cp_agcoEcuAbstraction_pt_agcoEcuAbstractionDuty
+   Provider:
+      SWC:  /pkg_extract/pkg_agco/ECUFlatView/cp_LedController
+      Port: /pkg_led/co_LedController/pt_LedControllerDuty
+      Data: /pkg_intf/if_duty/duty
+   Requester:
+      SWC:  /pkg_extract/pkg_agco/ECUFlatView/cp_agcoEcuAbstraction
+      Port: /pkg_ecu/co_agcoEcuAbstraction/pt_agcoEcuAbstractionDuty
+      Data: /pkg_intf/if_duty/duty
+
+Intra To Intra SwC Data Connection
+   Name: Assembly Connector: /pkg_extract/pkg_agco/ECUFlatView/cp_agcoEcuAbstraction_pt_agcoEcuAbstractionVoltage_cp_LedController_pt_LedControllerVoltage
+   Provider:
+      SWC:  /pkg_extract/pkg_agco/ECUFlatView/cp_agcoEcuAbstraction
+      Port: /pkg_ecu/co_agcoEcuAbstraction/pt_agcoEcuAbstractionVoltage
+      Data: /pkg_intf/if_voltage/voltage
+   Requester:
+      SWC:  /pkg_extract/pkg_agco/ECUFlatView/cp_LedController
+      Port: /pkg_led/co_LedController/pt_LedControllerVoltage
+      Data: /pkg_intf/if_voltage/voltage
+
+END Dumping Connections
+
+BEGIN Dumping SenderReceiver Explicit Data Buffers
+
+Sender Receiver Explicit Data Buffer
+   Name:                     Rte_RecBuf_cp_LedController_00_pt_LedControllerVoltage_voltage
+   Datatype:                 /AUTOSAR_Platform/ImplementationDataTypes/float64
+   Partition:                Core0
+   All Receivers:            cp_LedController_co_LedController_pt_LedControllerVoltage_voltage, 
+   All Senders:              cp_agcoEcuAbstraction_co_agcoEcuAbstraction_pt_agcoEcuAbstractionVoltage_voltage, 
+   Direct Accessed by receivers: cp_LedController_co_LedController_pt_LedControllerVoltage_voltage, 
+   Direct Accessed by senders: cp_agcoEcuAbstraction_co_agcoEcuAbstraction_pt_agcoEcuAbstractionVoltage_voltage, 
+   Is Atomic:                FALSE
+   Connected Flags:          
+   Connected Status Vars:    
+   PB access by IOC Data Channels: 
+
+   AR Data Type:             /pkg_types/adt_voltage
+   Is Measured:              FALSE
+   Initialization Strategy:  Not Specified (0)
+   Memory Section Name:      VAR_CLEARED_UNSPECIFIED
+   Init Value Specification: 
+   Init Value:               
+
+Sender Receiver Explicit Data Buffer
+   Name:                     Rte_RecBuf_cp_agcoEcuAbstraction_00_pt_agcoEcuAbstractionDuty_duty
+   Datatype:                 /AUTOSAR_Platform/ImplementationDataTypes/float64
+   Partition:                Core0
+   All Receivers:            cp_agcoEcuAbstraction_co_agcoEcuAbstraction_pt_agcoEcuAbstractionDuty_duty, 
+   All Senders:              cp_LedController_co_LedController_pt_LedControllerDuty_duty, 
+   Direct Accessed by receivers: cp_agcoEcuAbstraction_co_agcoEcuAbstraction_pt_agcoEcuAbstractionDuty_duty, 
+   Direct Accessed by senders: cp_LedController_co_LedController_pt_LedControllerDuty_duty, 
+   Is Atomic:                FALSE
+   Connected Flags:          
+   Connected Status Vars:    
+   PB access by IOC Data Channels: 
+
+   AR Data Type:             /pkg_types/adt_duty
+   Is Measured:              FALSE
+   Initialization Strategy:  Not Specified (0)
+   Memory Section Name:      VAR_CLEARED_UNSPECIFIED
+   Init Value Specification: 
+   Init Value:               
+
+END Dumping SenderReceiver Explicit Data Buffers
+
+BEGIN Dumping SenderReceiver Implicit Data Buffers
+
+END Dumping SenderReceiver Implicit Data Buffers
+
+BEGIN Dumping SenderReceiver NvBlockDescriptor Data Buffers
+
+END Dumping SenderReceiver NvBlockDescriptor Data Buffers
+
+BEGIN Dumping SenderReceiver Byte Array Data Buffers
+
+END Dumping SenderReceiver Byte Array Data Buffers
+
+BEGIN Dumping SenderReceiver Data Queues
+
+END Dumping SenderReceiver Data Queues
+
+BEGIN Dumping SenderReceiver Data Iocs
+
+END Dumping SenderReceiver Data Iocs
+
+BEGIN Dumping SenderReceiver Data Flags
+
+END Dumping SenderReceiver Data Flags
+
+BEGIN Dumping SenderReceiver Data Status variables
+
+END Dumping SenderReceiver Data Status variables
+
+BEGIN Dumping SenderReceiver Status Iocs
+
+END Dumping SenderReceiver Status Iocs
+
+BEGIN Dumping SenderReceiver Feedback Channels
+
+END Dumping SenderReceiver Feedback Channels
+
+BEGIN Dumping SenderReceiver State Variables
+
+END Dumping SenderReceiver State Variables
+
+BEGIN Dumping SenderReceiver Byte Array Length Variables
+
+END Dumping SenderReceiver Byte Array Length Variables
+
+BEGIN Dumping Mode Machine Instances
+ModeMachine name: BswM_EcuMode
+   Bsw Manager: BswM
+      ProvideModeGroupPrototype: /VSTAR/BswMd/BswM/EcuMode
+      Queue Length: 1
+      HasAckRequest: 0
+      Acknowledge Timeout: 0 ( 0 ticks)
+      Triggering event mappings:
+         TEvt_BswM_MainFunction
+            Task: OsTask
+            PositionInTask: 2
+   ModeDeclarationGroupPrototype: EcuMode
+   ModeDeclarationGroup: BswM_StateType
+   IsPreemptible: 1
+   ManagerErrorReactionPolicy: LAST-MODE
+   ManagerErrorReactionMode: 
+   UserErrorReactionPolicy: LAST-MODE
+   UserErrorReactionMode: 
+   ManagerPartition: Core0
+   ModeMachineEvent: N/A
+   ModeMachineInstanceToTaskMapping: Not configured
+   ModeUserPartitions:
+      Partition: Core0
+      TaskName: 
+      TaskPriority: -1
+      CommType: DIRECT
+      AckCommType: DIRECT
+      ModeSwitchUsers:
+      ModeDisablingUsers:
+      ModeAccessUsers:
+         ModeDeclarationGroupPrototype: /VSTAR/BswMd/BswM/EcuMode
+         BswInstance: BswM
+         EnhancedModeApi: No
+         Is Accessible For MCD: No
+         ImplementationDataType: /AUTOSAR_Platform/ImplementationDataTypes/uint8
+
+
+END Dumping Mode Machine Instances
+
+BEGIN Dumping ClientServer call-chains
+EcuM_P_ShutdownTarget_EcuM_SelectShutdownTarget
+
+EcuM_P_ShutdownTarget_EcuM_GetShutdownTarget
+
+EcuM_P_ShutdownTarget_EcuM_SelectShutdownCause
+
+EcuM_P_ShutdownTarget_EcuM_GetShutdownCause
+
+EcuM_P_ShutdownTarget_EcuM_GetLastShutdownTarget
+
+EcuM_P_BootTarget_EcuM_SelectBootTarget
+
+EcuM_P_BootTarget_EcuM_GetBootTarget
+
+Os_P_OsService_GetActiveApplicationMode
+
+Os_P_OsService_TerminateApplication
+
+Os_P_OsService_GetApplicationState
+
+Os_P_OsService_OsCounter_GetCounterValue
+
+Os_P_OsService_OsCounter_GetElapsedValue
+
+END Dumping ClientServer call-chains
+
+BEGIN Dumping OsNeedsDictionary
+Rte_Al_OsTask	Rte_Al_OsTask
+Rte_Ev_ComTask	Rte_Ev_ComTask
+Rte_Ev_ModeTask	Rte_Ev_ModeTask
+END Dumping OsNeedsDictionary
+
+BEGIN Dumping NV block descriptors
+
+END Dumping NV block descriptors
+
+CBswInstance: BswM
+ VendorId: 31
+ DefaultPartition: Core0
+ AllocatedPartition: Core0
+ MappedSwC: BswM
+ Internal Trigger Sources:
+ Internal Trigger Sinks:
+ External Trigger Sources:
+ External Trigger Sinks:
+ Servers:
+ Clients:
+
+CBswInstance: EcuM
+ VendorId: 31
+ DefaultPartition: Core0
+ AllocatedPartition: Core0
+ MappedSwC: EcuM
+ Internal Trigger Sources:
+ Internal Trigger Sinks:
+ External Trigger Sources:
+ External Trigger Sinks:
+ Servers:
+ Clients:
+
+Dump Bsw call-chains
+BEn_BswM_MainFunction (tasks: OsTask )
+EcuM_AbortWakeupAlarm (tasks:  )
+EcuM_ClearWakeupEvent (tasks:  )
+EcuM_GetBootTarget (tasks:  )
+EcuM_GetCurrentTime (tasks:  )
+EcuM_GetExpiredWakeupEvents (tasks:  )
+EcuM_GetLastShutdownTarget (tasks:  )
+EcuM_GetPendingWakeupEvents (tasks:  )
+EcuM_GetShutdownCause (tasks:  )
+EcuM_GetShutdownTarget (tasks:  )
+EcuM_GetValidatedWakeupEvents (tasks:  )
+EcuM_GetVersionInfo (tasks:  )
+EcuM_GetWakeupTime (tasks:  )
+EcuM_GoDown (tasks:  )
+EcuM_GoHalt (tasks:  )
+EcuM_GoPoll (tasks:  )
+EcuM_Init (tasks:  )
+EcuM_MainFunction (tasks: OsTask )
+EcuM_SelectBootTarget (tasks:  )
+EcuM_SelectShutdownCause (tasks:  )
+EcuM_SelectShutdownTarget (tasks:  )
+EcuM_SetAbsWakeupAlarm (tasks:  )
+EcuM_SetClock (tasks:  )
+EcuM_SetRelWakeupAlarm (tasks:  )
+EcuM_SetWakeupEvent (tasks:  )
+EcuM_Shutdown (tasks:  )
+EcuM_StartupTwo (tasks:  )
+EcuM_ValidateWakeupEvent (tasks:  )
+
+BEGIN Dumping Interrupts
+END Dumping Interrupts
+
+BEGIN Dumping IOCs
+END Dumping IOCs
+
+-----------------------------------------
+Dump Event mappings for task: ComTask
+Priority: 1 Preemptive: Yes
+Scenario: 5
+Name: ev_LedControllerVoltageToTask
+   EventIdName: ev_LedControllerVoltage_cp_LedController
+   EventType: DATA-RECEIVED-EVENT
+   ExecutableInstanceName: ru_LedControllerVoltage_cp_LedController
+   Task Name: ComTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 0 Scenario: 5 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_LedController
+   Event (DATA-RECEIVED-EVENT): ev_LedControllerVoltage
+   Runnable: ru_LedControllerVoltage { Symbol: ru_LedControllerVoltage Category: 1 RequiresExtendedTask: False}
+
+Name: ev_ecuAbstractionDutyToTask
+   EventIdName: ev_ecuAbstractionDuty_cp_agcoEcuAbstraction
+   EventType: DATA-RECEIVED-EVENT
+   ExecutableInstanceName: ru_agcoEcuAbstractionDuty_cp_agcoEcuAbstraction
+   Task Name: ComTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 1 Scenario: 5 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_agcoEcuAbstraction
+   Event (DATA-RECEIVED-EVENT): ev_ecuAbstractionDuty
+   Runnable: ru_agcoEcuAbstractionDuty { Symbol: ru_agcoEcuAbstractionDuty Category: 1 RequiresExtendedTask: False}
+
+-----------------------------------------
+
+-----------------------------------------
+Dump Event mappings for task: ModeTask
+Priority: 1 Preemptive: Yes
+Scenario: 5
+Name: ev_LedControllerInitializeToTask
+   EventIdName: ev_LedControllerInitialize_cp_LedController
+   EventType: INIT-EVENT
+   ExecutableInstanceName: ru_LedControllerInitialize_cp_LedController
+   Task Name: ModeTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 0 Scenario: 5 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_LedController
+   Event (INIT-EVENT): ev_LedControllerInitialize
+   Runnable: ru_LedControllerInitialize { Symbol: ru_ledControllerInitialize Category: 1 RequiresExtendedTask: False}
+
+Name: ev_agcoEcuAbstractionInitializeToTask
+   EventIdName: ev_agcoEcuAbstractionInitialize_cp_agcoEcuAbstraction
+   EventType: INIT-EVENT
+   ExecutableInstanceName: ru_agcoEcuAbstractionInitialize_cp_agcoEcuAbstraction
+   Task Name: ModeTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 1 Scenario: 5 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 0
+   TriggeringPartitions:
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_agcoEcuAbstraction
+   Event (INIT-EVENT): ev_agcoEcuAbstractionInitialize
+   Runnable: ru_agcoEcuAbstractionInitialize { Symbol: ru_agcoEcuAbstractionInitialize Category: 1 RequiresExtendedTask: False}
+
+-----------------------------------------
+
+-----------------------------------------
+Dump Event mappings for task: OsTask
+Priority: 1 Preemptive: Yes
+Scenario: 2
+Greatest Common Divisor for TimingEvents: 1 ticks
+Name: ev_LedControllerTimerToTask
+   EventIdName: ev_LedControllerTimer_cp_LedController
+   EventType: TIMING-EVENT
+   ExecutableInstanceName: ru_LedControllerTimer_cp_LedController
+   Task Name: OsTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 0 Scenario: 2 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_LedController
+   Event (TIMING-EVENT): ev_LedControllerTimer Period: 0.05 seconds (5 ticks)
+   Runnable: ru_LedControllerTimer { Symbol: ru_LedControllerTimer Category: 1 RequiresExtendedTask: False}
+
+Name: ev_agcoEcuAbstractionTimerToTask
+   EventIdName: ev_agcoEcuAbstractionTimer_cp_agcoEcuAbstraction
+   EventType: TIMING-EVENT
+   ExecutableInstanceName: ru_agcoEcuAbstractionTimer_cp_agcoEcuAbstraction
+   Task Name: OsTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 1 Scenario: 2 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   SwcCfg Name: cp_agcoEcuAbstraction
+   Event (TIMING-EVENT): ev_agcoEcuAbstractionTimer Period: 0.1 seconds (10 ticks)
+   Runnable: ru_agcoEcuAbstractionTimer { Symbol: ru_agcoEcuAbstractionTimer Category: 1 RequiresExtendedTask: False}
+
+Name: TEvt_BswM_MainFunctionToTask
+   EventIdName: TEvt_BswM_MainFunction_BswM
+   EventType: BSW-TIMING-EVENT
+   ExecutableInstanceName: BswM_MainFunction
+   Task Name: OsTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 2 Scenario: 2 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   BswCfg Name: BswM_Inst
+   Event (BSW-TIMING-EVENT): TEvt_BswM_MainFunction Period: 0.005 seconds (1 ticks)
+   BswModuleEntity: BEn_BswM_MainFunction { Symbol: BswM_MainFunction RequiresExtendedTask: False}
+
+Name: Evt_EcuM_MainFunctionToTask
+   EventIdName: Evt_EcuM_MainFunction_EcuM
+   EventType: BSW-TIMING-EVENT
+   ExecutableInstanceName: EcuM_MainFunction
+   Task Name: OsTask { Priority: 1 Preemptible: 1 OsTaskActivation: 1 PositionInTask: 3 Scenario: 2 InterPartitionTriggering: N/A }
+   ActivationOffset: 0 ticks
+   ConditionalSchedulePoint: 0
+   UnconditionalSchedulePoint: 0
+   NeedsTaskMapping: 1
+   TriggeringPartitions:
+      Core0: DIRECT
+   UseIocEventTriggering: False
+   BswCfg Name: EcuM_Inst
+   Event (BSW-TIMING-EVENT): Evt_EcuM_MainFunction Period: 0.01 seconds (1 ticks)
+   BswModuleEntity: EcuM_MainFunction { Symbol: EcuM_MainFunction RequiresExtendedTask: False}
+
+-----------------------------------------
+
+Features used in partition: Core0
+   /SenderReceiverCommunication/SWC/UnqueuedCommunication/Explicit/IntraPartition
+   /ModesCommunication/BSW/SynchronousCommunication/IntraPartition
+   /InternalCommunication/SWC/PerInstanceMemory/AR-Typed
+   /ExclusiveAreas/SWC/AllInterruptBlocking
+   /ExclusiveAreas/BSW/AllInterruptBlocking
+   /InitializationAndFinalization/SWC/SinglePartition
+   /InitializationAndFinalization/BSW/SinglePartition
+   /Scheduler/SWC/TimingEvent
+   /Scheduler/SWC/DataReceivedEvent
+   /Scheduler/SWC/InitEvent
+   /Scheduler/BSW/BswTimingEvent
+
+
+Generated symbols per partition and feature: Core0
+   /SenderReceiverCommunication/SWC/UnqueuedCommunication/Explicit/IntraPartition
+      Rte_Read_cp_LedController_pt_LedControllerVoltage_voltage
+      Rte_Read_cp_agcoEcuAbstraction_pt_agcoEcuAbstractionDuty_duty
+      Rte_Write_cp_LedController_pt_LedControllerDuty_duty
+      Rte_Write_cp_agcoEcuAbstraction_pt_agcoEcuAbstractionVoltage_voltage
+
+   /ModesCommunication/BSW/SynchronousCommunication/IntraPartition
+      SchM_Mode_BswM_EcuMode
+      SchM_Switch_BswM_EcuMode
+
+   /InternalCommunication/SWC/PerInstanceMemory/AR-Typed
+      Rte_Pim_pm_duty
+
+   /ExclusiveAreas/SWC/AllInterruptBlocking
+      Rte_Enter_cp_LedController_ea_LedController
+      Rte_Enter_cp_agcoEcuAbstraction_ea_agcoEcuAbstraction
+      Rte_Exit_cp_LedController_ea_LedController
+      Rte_Exit_cp_agcoEcuAbstraction_ea_agcoEcuAbstraction
+
+   /ExclusiveAreas/BSW/AllInterruptBlocking
+      SchM_Enter_EcuM_EaClockContext
+      SchM_Enter_EcuM_EaShutdownTarget
+      SchM_Enter_EcuM_EaWakepSource
+      SchM_Exit_EcuM_EaClockContext
+      SchM_Exit_EcuM_EaShutdownTarget
+      SchM_Exit_EcuM_EaWakepSource
+
+   /InitializationAndFinalization/SWC/SinglePartition
+      Rte_Start
+      Rte_Start_Core0
+      Rte_Stop
+      Rte_Stop_Core0
+
+   /InitializationAndFinalization/BSW/SinglePartition
+      SchM_Deinit
+      SchM_Deinit_Core0
+      SchM_GetVersionInfo
+      SchM_Init
+      SchM_Init_Core0
+
+   /Scheduler/SWC/TimingEvent
+      OsTask
+
+   /Scheduler/SWC/DataReceivedEvent
+      ComTask
+
+   /Scheduler/SWC/InitEvent
+      ModeTask
+
+   /Scheduler/BSW/BswTimingEvent
+      OsTask
+

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/22102029902365709:com.mbeddr.core.expressions.structure.AssignmentExpr" />
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/6610873504380029780:com.mbeddr.core.expressions.structure.CastExpression" />
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/3820836583575227340:com.mbeddr.core.expressions.structure.DirectPlusAssignmentExpression" />
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/5763383285156373022:com.mbeddr.core.expressions.structure.DivExpression" />
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/4620120465980402700:com.mbeddr.core.expressions.structure.GenericDotExpression" />
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/5763383285156373018:com.mbeddr.core.expressions.structure.MinusExpression" />
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/5763383285156373020:com.mbeddr.core.expressions.structure.MultiExpression" />
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/8860443239512128103:com.mbeddr.core.expressions.structure.NumberLiteral" />
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/5763383285156533447:com.mbeddr.core.expressions.structure.ParensExpression" />
+  <concept fqn="c:61c69711-ed61-4850-81d9-7714ff227fb0/5763383285156373013:com.mbeddr.core.expressions.structure.PlusExpression" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/8183467697968123900:com.mbeddr.core.modules.structure.ArbitraryTextContent" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/2093108837558505658:com.mbeddr.core.modules.structure.ArgumentRef" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/1028666136487545270:com.mbeddr.core.modules.structure.CommentModuleContent" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/8934095934011938595:com.mbeddr.core.modules.structure.EmptyModuleContent" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/6437088627575724001:com.mbeddr.core.modules.structure.Function" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/6437088627575724000:com.mbeddr.core.modules.structure.FunctionPrototype" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/3788988821851860886:com.mbeddr.core.modules.structure.GlobalConstantDeclaration" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/6021475212425916971:com.mbeddr.core.modules.structure.GlobalConstantFunctionDeclaration" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/7308356872494660981:com.mbeddr.core.modules.structure.GlobalConstantFuntionArgumentRef" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/6610873504380357354:com.mbeddr.core.modules.structure.GlobalVarRef" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/6610873504380335822:com.mbeddr.core.modules.structure.GlobalVariableDeclaration" />
+  <concept fqn="c:6d11763d-483d-4b2b-8efc-09336c1b0001/8967919205527146149:com.mbeddr.core.modules.structure.ReturnStatement" />
+  <concept fqn="c:a9d69647-0840-491e-bf39-2eb0805d2011/1679452829930336984:com.mbeddr.core.statements.structure.CommentStatement" />
+  <concept fqn="c:a9d69647-0840-491e-bf39-2eb0805d2011/7254843406768833938:com.mbeddr.core.statements.structure.ExpressionStatement" />
+  <concept fqn="c:a9d69647-0840-491e-bf39-2eb0805d2011/2093108837558113914:com.mbeddr.core.statements.structure.LocalVarRef" />
+  <concept fqn="c:a9d69647-0840-491e-bf39-2eb0805d2011/4185783222026475238:com.mbeddr.core.statements.structure.LocalVariableDeclaration" />
+  <concept fqn="c:a9d69647-0840-491e-bf39-2eb0805d2011/4185783222026475861:com.mbeddr.core.statements.structure.StatementList" />
+  <concept fqn="c:efda956e-491e-4f00-ba14-36af2f213ecf/6116558314501347857:com.mbeddr.core.udt.structure.TypeDef" />
+  <concept fqn="c:7e1798c9-37ba-4888-9dbd-33c0e7eb295b/2919001940622911637:com.siemens.esd.autosar.arInfrastructure.structure.RunnableFunction" />
+  <root>
+    <file name="BaseTypes.arxml">
+      <unit at="1,0,18,10" name="_01_Arch.BaseTypes" />
+    </file>
+    <file name="DTMS.arxml">
+      <unit at="1,0,24,10" name="_01_Arch.DTMS" />
+    </file>
+    <file name="_01_Arch.arxml">
+      <unit at="1,0,477,10" name="_01_Arch._01_Arch" />
+    </file>
+    <file name="___TriggerInfo.c">
+      <unit at="1,0,5,0" name="_01_Arch.___TriggerInfo" />
+    </file>
+  </root>
+  <root nodeRef="3c4eda0f-1c8d-4cd3-b50a-5e3b5354aa39/r:0ca882c3-0e34-41b1-9106-a8c077327ab1(ClaStdLib/ClaStdLib)/3623788340900970045">
+    <file name="Cla_CommonUnits.c">
+      <node id="8340044428335368199" at="5,0,6,0" concept="13" />
+      <node id="6456666279511775373" at="7,0,8,0" concept="13" />
+      <node id="6456666279511231858" at="9,0,10,0" concept="13" />
+      <node id="3623788340900970098" at="11,0,12,0" concept="13" />
+      <node id="3623788340900970112" at="13,0,14,0" concept="13" />
+      <node id="3623788340900970142" at="15,0,16,0" concept="13" />
+      <node id="3623788340900970183" at="17,0,18,0" concept="13" />
+      <node id="8340044428335702845" at="19,0,20,0" concept="13" />
+      <unit id="3623788340900970045" at="1,0,21,0" name="_01_Arch.Cla_CommonUnits" />
+    </file>
+    <file name="Cla_CommonUnits.h">
+      <node id="6456666279511242244" at="17,0,17,38" concept="17" />
+      <node id="6456666279511271776" at="17,25,17,30" concept="8" />
+      <node id="6456666279511271820" at="17,25,17,37" concept="3" />
+      <node id="6456666279511271776" at="17,26,17,29" concept="18" />
+      <node id="6456666279511271827" at="17,33,17,37" concept="7" />
+      <node id="6456666279511282464" at="18,0,18,38" concept="17" />
+      <node id="6456666279511312830" at="18,25,18,30" concept="8" />
+      <node id="6456666279511312855" at="18,25,18,37" concept="6" />
+      <node id="6456666279511312830" at="18,26,18,29" concept="18" />
+      <node id="6456666279511312862" at="18,33,18,37" concept="7" />
+      <node id="3623788340900970048" at="19,0,19,62" concept="17" />
+      <node id="3623788340900970054" at="19,31,19,36" concept="8" />
+      <node id="3623788340900970052" at="19,31,19,55" concept="6" />
+      <node id="3623788340900970050" at="19,31,19,61" concept="3" />
+      <node id="3623788340900970054" at="19,32,19,35" concept="18" />
+      <node id="3623788340900970053" at="19,39,19,55" concept="7" />
+      <node id="3623788340900970051" at="19,58,19,61" concept="7" />
+      <node id="3623788340900970057" at="20,0,20,62" concept="17" />
+      <node id="3623788340900970063" at="20,31,20,36" concept="8" />
+      <node id="3623788340900970061" at="20,31,20,42" concept="6" />
+      <node id="3623788340900970059" at="20,31,20,61" concept="3" />
+      <node id="3623788340900970063" at="20,32,20,35" concept="18" />
+      <node id="3623788340900970062" at="20,39,20,42" concept="7" />
+      <node id="3623788340900970060" at="20,45,20,61" concept="7" />
+      <node id="3623788340900970066" at="21,0,21,43" concept="17" />
+      <node id="3623788340900970070" at="21,31,21,36" concept="8" />
+      <node id="3623788340900970068" at="21,31,21,42" concept="3" />
+      <node id="3623788340900970070" at="21,32,21,35" concept="18" />
+      <node id="3623788340900970069" at="21,39,21,42" concept="7" />
+      <node id="3623788340900970073" at="22,0,22,56" concept="17" />
+      <node id="3623788340900970080" at="22,31,22,36" concept="8" />
+      <node id="3623788340900970075" at="22,31,22,55" concept="3" />
+      <node id="3623788340900970080" at="22,32,22,35" concept="18" />
+      <node id="3623788340900970077" at="22,39,22,55" concept="7" />
+      <node id="3623788340900970083" at="23,0,23,43" concept="17" />
+      <node id="3623788340900970087" at="23,31,23,36" concept="8" />
+      <node id="3623788340900970085" at="23,31,23,42" concept="6" />
+      <node id="3623788340900970087" at="23,32,23,35" concept="18" />
+      <node id="3623788340900970086" at="23,39,23,42" concept="7" />
+      <node id="3623788340900970090" at="24,0,24,56" concept="17" />
+      <node id="3623788340900970097" at="24,31,24,36" concept="8" />
+      <node id="3623788340900970092" at="24,31,24,55" concept="6" />
+      <node id="3623788340900970097" at="24,32,24,35" concept="18" />
+      <node id="3623788340900970094" at="24,39,24,55" concept="7" />
+      <node id="3623788340900970100" at="25,0,25,40" concept="17" />
+      <node id="3623788340900970104" at="25,29,25,34" concept="8" />
+      <node id="3623788340900970102" at="25,29,25,39" concept="6" />
+      <node id="3623788340900970104" at="25,30,25,33" concept="18" />
+      <node id="3623788340900970103" at="25,37,25,39" concept="7" />
+      <node id="3623788340900970107" at="26,0,26,40" concept="17" />
+      <node id="3623788340900970111" at="26,29,26,34" concept="8" />
+      <node id="3623788340900970109" at="26,29,26,39" concept="3" />
+      <node id="3623788340900970111" at="26,30,26,33" concept="18" />
+      <node id="3623788340900970110" at="26,37,26,39" concept="7" />
+      <node id="3623788340900970114" at="27,0,27,63" concept="17" />
+      <node id="3623788340900970126" at="27,33,27,38" concept="8" />
+      <node id="3623788340900970121" at="27,33,27,57" concept="6" />
+      <node id="3623788340900970116" at="27,33,27,62" concept="3" />
+      <node id="3623788340900970126" at="27,34,27,37" concept="18" />
+      <node id="3623788340900970123" at="27,41,27,57" concept="7" />
+      <node id="3623788340900970118" at="27,60,27,62" concept="7" />
+      <node id="3623788340900970129" at="28,0,28,63" concept="17" />
+      <node id="3623788340900970141" at="28,33,28,38" concept="8" />
+      <node id="3623788340900970136" at="28,33,28,43" concept="6" />
+      <node id="3623788340900970131" at="28,33,28,62" concept="3" />
+      <node id="3623788340900970141" at="28,34,28,37" concept="18" />
+      <node id="3623788340900970138" at="28,41,28,43" concept="7" />
+      <node id="3623788340900970133" at="28,46,28,62" concept="7" />
+      <node id="3623788340900970144" at="29,0,29,53" concept="17" />
+      <node id="3623788340900970161" at="29,30,29,35" concept="8" />
+      <node id="3623788340900970156" at="29,30,29,39" concept="6" />
+      <node id="3623788340900970151" at="29,30,29,43" concept="3" />
+      <node id="3623788340900970146" at="29,30,29,52" concept="9" />
+      <node id="3623788340900970161" at="29,31,29,34" concept="18" />
+      <node id="3623788340900970158" at="29,38,29,39" concept="7" />
+      <node id="3623788340900970153" at="29,42,29,43" concept="7" />
+      <node id="3623788340900970148" at="29,46,29,52" concept="7" />
+      <node id="3623788340900970164" at="30,0,30,55" concept="17" />
+      <node id="3623788340900970176" at="30,30,30,46" concept="8" />
+      <node id="3623788340900970171" at="30,30,30,50" concept="6" />
+      <node id="3623788340900970166" at="30,30,30,54" concept="3" />
+      <node id="3623788340900970182" at="30,31,30,36" concept="8" />
+      <node id="3623788340900970177" at="30,31,30,45" concept="5" />
+      <node id="3623788340900970182" at="30,32,30,35" concept="18" />
+      <node id="3623788340900970179" at="30,39,30,45" concept="7" />
+      <node id="3623788340900970173" at="30,49,30,50" concept="7" />
+      <node id="3623788340900970168" at="30,53,30,54" concept="7" />
+      <node id="3623788340900970185" at="31,0,31,41" concept="17" />
+      <node id="3623788340900970189" at="31,28,31,33" concept="8" />
+      <node id="3623788340900970187" at="31,28,31,40" concept="3" />
+      <node id="3623788340900970189" at="31,29,31,32" concept="18" />
+      <node id="3623788340900970188" at="31,36,31,40" concept="7" />
+      <node id="3623788340900970192" at="32,0,32,41" concept="17" />
+      <node id="3623788340900970196" at="32,28,32,33" concept="8" />
+      <node id="3623788340900970194" at="32,28,32,40" concept="6" />
+      <node id="3623788340900970196" at="32,29,32,32" concept="18" />
+      <node id="3623788340900970195" at="32,36,32,40" concept="7" />
+      <node id="3623788340900970199" at="33,0,33,48" concept="17" />
+      <node id="3623788340900970204" at="33,28,33,33" concept="8" />
+      <node id="3623788340900970202" at="33,28,33,40" concept="3" />
+      <node id="3623788340900970200" at="33,28,33,47" concept="3" />
+      <node id="3623788340900970204" at="33,29,33,32" concept="18" />
+      <node id="3623788340900970203" at="33,36,33,40" concept="7" />
+      <node id="3623788340900970201" at="33,43,33,47" concept="7" />
+      <node id="3623788340900970208" at="34,0,34,48" concept="17" />
+      <node id="3623788340900970213" at="34,28,34,33" concept="8" />
+      <node id="3623788340900970211" at="34,28,34,40" concept="6" />
+      <node id="3623788340900970209" at="34,28,34,47" concept="6" />
+      <node id="3623788340900970213" at="34,29,34,32" concept="18" />
+      <node id="3623788340900970212" at="34,36,34,40" concept="7" />
+      <node id="3623788340900970210" at="34,43,34,47" concept="7" />
+      <node id="8340044428335434672" at="35,0,35,43" concept="17" />
+      <node id="8340044428335471641" at="35,30,35,35" concept="8" />
+      <node id="8340044428335471665" at="35,30,35,42" concept="3" />
+      <node id="8340044428335471641" at="35,31,35,34" concept="18" />
+      <node id="8340044428335471672" at="35,38,35,42" concept="7" />
+      <node id="8340044428335521277" at="36,0,36,50" concept="17" />
+      <node id="8340044428335549547" at="36,30,36,35" concept="8" />
+      <node id="8340044428335550607" at="36,30,36,42" concept="3" />
+      <node id="8340044428335550606" at="36,30,36,49" concept="3" />
+      <node id="8340044428335549547" at="36,31,36,34" concept="18" />
+      <node id="8340044428335550608" at="36,38,36,42" concept="7" />
+      <node id="8340044428335550611" at="36,45,36,49" concept="7" />
+      <node id="8340044428335481866" at="37,0,37,43" concept="17" />
+      <node id="8340044428335510062" at="37,30,37,35" concept="8" />
+      <node id="8340044428335510737" at="37,30,37,42" concept="6" />
+      <node id="8340044428335510062" at="37,31,37,34" concept="18" />
+      <node id="8340044428335510744" at="37,38,37,42" concept="7" />
+      <node id="8340044428335603010" at="38,0,38,44" concept="17" />
+      <node id="8340044428335632358" at="38,31,38,36" concept="8" />
+      <node id="8340044428335632382" at="38,31,38,43" concept="3" />
+      <node id="8340044428335632358" at="38,32,38,35" concept="18" />
+      <node id="8340044428335632389" at="38,39,38,43" concept="7" />
+      <node id="8340044428335562442" at="39,0,39,50" concept="17" />
+      <node id="8340044428335590945" at="39,30,39,35" concept="8" />
+      <node id="8340044428335592300" at="39,30,39,42" concept="6" />
+      <node id="8340044428335592299" at="39,30,39,49" concept="6" />
+      <node id="8340044428335590945" at="39,31,39,34" concept="18" />
+      <node id="8340044428335592301" at="39,38,39,42" concept="7" />
+      <node id="8340044428335592304" at="39,45,39,49" concept="7" />
+      <node id="8340044428335642776" at="40,0,40,44" concept="17" />
+      <node id="8340044428335672453" at="40,31,40,36" concept="8" />
+      <node id="8340044428335672477" at="40,31,40,43" concept="6" />
+      <node id="8340044428335672453" at="40,32,40,35" concept="18" />
+      <node id="8340044428335672484" at="40,39,40,43" concept="7" />
+    </file>
+  </root>
+  <root nodeRef="r:679066bc-2da8-4932-a09c-5d2b3d47b911(com.mbeddr.ext.units.siunits)/624957442821420128">
+    <file name="SIUnits.c">
+      <node id="3156023081155848046" at="5,0,6,0" concept="13" />
+      <unit id="624957442821420128" at="1,0,7,0" name="_01_Arch.SIUnits" />
+    </file>
+  </root>
+  <root nodeRef="r:c6278ed5-db4b-493c-8935-0647bf533c07(com.lmsintl.accent.blocks.simulation.simRunTimeHelper)/1627662329389868462">
+    <file name="___SimulationRuntime.c">
+      <node id="7938383052421781085" at="15,19,15,20" concept="7" />
+      <node id="7938383052421781515" at="17,17,17,18" concept="7" />
+      <node id="7938383052421781739" at="19,21,19,22" concept="7" />
+      <node id="5157567457303319124" at="21,22,21,23" concept="7" />
+      <node id="1627662329389992736" at="25,2,25,9" concept="19" />
+      <node id="1627662329389993142" at="25,2,25,13" concept="0" />
+      <node id="1627662329389992738" at="25,2,25,14" concept="23" />
+      <node id="1627662329389993145" at="25,12,25,13" concept="7" />
+      <node id="1627662329389995509" at="26,2,26,9" concept="19" />
+      <node id="1627662329389995532" at="26,2,26,21" concept="0" />
+      <node id="1627662329389995511" at="26,2,26,22" concept="23" />
+      <node id="1627662329390117454" at="26,12,26,21" concept="11" />
+      <node id="5157567457303320862" at="27,2,27,14" concept="19" />
+      <node id="5157567457303320887" at="27,2,27,26" concept="0" />
+      <node id="5157567457303320864" at="27,2,27,27" concept="23" />
+      <node id="5157567457303321000" at="27,17,27,26" concept="11" />
+      <node id="1627662329389995854" at="28,2,28,13" concept="19" />
+      <node id="1627662329389995885" at="28,2,28,18" concept="0" />
+      <node id="1627662329389995856" at="28,2,28,19" concept="23" />
+      <node id="1627662329389996193" at="28,16,28,18" concept="11" />
+      <node id="3145998165197370340" at="34,2,34,9" concept="19" />
+      <node id="3145998165197370698" at="34,2,34,16" concept="0" />
+      <node id="3145998165197370342" at="34,2,34,17" concept="23" />
+      <node id="3145998165197371059" at="34,12,34,16" concept="11" />
+      <node id="3145998165197374417" at="35,2,35,9" concept="19" />
+      <node id="3145998165197374965" at="35,2,35,16" concept="0" />
+      <node id="3145998165197374419" at="35,2,35,17" concept="23" />
+      <node id="3145998165197375145" at="35,12,35,16" concept="11" />
+      <node id="3145998165197375874" at="36,2,36,13" concept="19" />
+      <node id="3145998165197376435" at="36,2,36,20" concept="0" />
+      <node id="3145998165197375876" at="36,2,36,21" concept="23" />
+      <node id="3145998165197376630" at="36,16,36,20" concept="11" />
+      <node id="5896507359585317302" at="37,2,37,14" concept="19" />
+      <node id="5896507359585317327" at="37,2,37,26" concept="0" />
+      <node id="5896507359585317304" at="37,2,37,27" concept="23" />
+      <node id="5810534525361474934" at="37,17,37,26" concept="11" />
+      <node id="1627662329390000902" at="43,2,43,9" concept="19" />
+      <node id="1627662329390001176" at="43,2,43,14" concept="2" />
+      <node id="1627662329390000904" at="43,2,43,15" concept="23" />
+      <node id="1627662329390001454" at="43,13,43,14" concept="7" />
+      <node id="1627662329390002364" at="44,2,44,9" concept="19" />
+      <node id="1627662329390002835" at="44,2,44,24" concept="2" />
+      <node id="1627662329390002366" at="44,2,44,25" concept="23" />
+      <node id="1627662329390003302" at="44,13,44,24" concept="19" />
+      <node id="6613051320897737978" at="58,2,58,36" concept="25" />
+      <node id="6613051320897738264" at="58,18,58,35" concept="8" />
+      <node id="6613051320897738266" at="58,19,58,24" concept="11" />
+      <node id="6613051320897738265" at="58,19,58,34" concept="6" />
+      <node id="6613051320897738267" at="58,27,58,34" concept="7" />
+      <node id="6613051320898266173" at="59,2,59,31" concept="21" />
+      <node id="6613051320897743428" at="59,9,59,30" concept="1" />
+      <node id="6613051320897743429" at="59,22,59,28" concept="24" />
+      <node id="8942958744069298186" at="5,0,6,0" concept="13" />
+      <node id="1627662329389984434" at="7,0,8,0" concept="13" />
+      <node id="3145998165197366830" at="9,0,10,0" concept="13" />
+      <node id="6613051320904217355" at="11,0,12,0" concept="13" />
+      <node id="6613051320904218231" at="13,0,14,0" concept="13" />
+      <node id="7938383052421780892" at="15,0,16,0" concept="20" />
+      <node id="7938383052421781513" at="17,0,18,0" concept="20" />
+      <node id="7938383052421781737" at="19,0,20,0" concept="20" />
+      <node id="5157567457303319122" at="21,0,22,0" concept="20" />
+      <node id="7938383052423613836" at="42,0,46,0" concept="26" />
+      <node id="1627662329389987700" at="24,0,30,0" concept="26" />
+      <node id="3145998165197368928" at="33,0,39,0" concept="26" />
+      <node id="7938383052423613834" at="41,0,47,0" concept="14" trace="incrSimVars" />
+      <node id="6613051320898266281" at="50,2,57,0" concept="22" />
+      <node id="1627662329389987698" at="23,0,31,0" concept="14" trace="initTimeVars" />
+      <node id="3145998165197368926" at="32,0,40,0" concept="14" trace="setSimVars" />
+      <node id="6613051320898264716" at="49,0,61,0" concept="26" />
+      <node id="6613051320898264714" at="48,0,62,0" concept="14" trace="getValueInUInt64" />
+      <unit id="1627662329389868462" at="1,0,63,0" name="_01_Arch.___SimulationRuntime" />
+    </file>
+    <file name="___SimulationRuntime.h">
+      <node id="1627662329389987698" at="19,0,20,0" concept="15" trace="_01_Arch.initTimeVars" />
+      <node id="3145998165197368926" at="21,0,22,0" concept="15" trace="_01_Arch.setSimVars" />
+      <node id="7938383052423613834" at="23,0,24,0" concept="15" trace="_01_Arch.incrSimVars" />
+      <node id="6613051320898264714" at="25,0,26,0" concept="15" trace="_01_Arch.getValueInUInt64" />
+      <node id="7938383052421780892" at="27,0,28,0" concept="20" />
+      <node id="7938383052421781513" at="29,0,30,0" concept="20" />
+      <node id="7938383052421781737" at="31,0,32,0" concept="20" />
+      <node id="5157567457303319122" at="33,0,34,0" concept="20" />
+    </file>
+  </root>
+  <root nodeRef="r:fb78fff6-9664-464a-85d2-ca4eb86ef7cc(_01_Arch)/7077315457911159021">
+    <file name="a01_types.c">
+      <unit id="7077315457911159021" at="1,0,5,0" name="_01_Arch.a01_types" />
+    </file>
+    <file name="a01_types.h">
+      <node id="7077315457911564278" at="21,0,21,26" concept="27" />
+      <node id="7077315457911564335" at="22,0,22,40" concept="27" />
+      <node id="7077315457911160029" at="23,0,23,32" concept="27" />
+      <node id="7077315457911180141" at="24,0,24,26" concept="27" />
+    </file>
+  </root>
+  <root nodeRef="r:fb78fff6-9664-464a-85d2-ca4eb86ef7cc(_01_Arch)/7077315457911159227">
+    <file name="a02_interfaces.c">
+      <unit id="7077315457911159227" at="1,0,5,0" name="_01_Arch.a02_interfaces" />
+    </file>
+    <file name="a02_interfaces.h">
+      <node id="7077315457911159227" at="21,0,21,41" concept="27" />
+      <node id="7077315457911159227" at="26,0,26,35" concept="27" />
+    </file>
+  </root>
+  <root nodeRef="r:fb78fff6-9664-464a-85d2-ca4eb86ef7cc(_01_Arch)/7077315457911159365">
+    <file name="a03_constants.c">
+      <unit id="7077315457911159365" at="1,0,5,0" name="_01_Arch.a03_constants" />
+    </file>
+    <file name="a03_constants.h">
+      <node id="7077315457911159365" at="19,0,19,35" concept="16" />
+      <node id="7077315457911159365" at="19,21,19,34" concept="1" />
+      <node id="7077315457911277124" at="19,31,19,32" concept="7" />
+      <node id="7077315457911159365" at="20,0,20,35" concept="16" />
+      <node id="7077315457911159365" at="20,21,20,34" concept="1" />
+      <node id="7077315457911294883" at="20,31,20,32" concept="7" />
+      <node id="7077315457911159365" at="21,0,21,41" concept="16" />
+      <node id="7077315457911159365" at="21,27,21,40" concept="1" />
+      <node id="7077315457911295208" at="21,37,21,38" concept="7" />
+      <node id="7077315457911159365" at="22,0,22,41" concept="16" />
+      <node id="7077315457911159365" at="22,27,22,40" concept="1" />
+      <node id="7077315457911295988" at="22,37,22,38" concept="7" />
+    </file>
+  </root>
+  <root nodeRef="r:fb78fff6-9664-464a-85d2-ca4eb86ef7cc(_01_Arch)/7077315457911159502">
+    <file name="dd_a04_data.xml">
+      <unit id="7077315457911159502" at="1,0,27,17" name="_01_Arch.dd_a04_data" />
+    </file>
+  </root>
+  <root nodeRef="r:fb78fff6-9664-464a-85d2-ca4eb86ef7cc(_01_Arch)/7077315457911159649">
+    <file name="Rte_a05_arch_blinkySWC.c">
+      <node id="7077315457911179944" at="13,0,13,35" concept="10" />
+      <node id="7077315457911179944" at="41,0,41,34" concept="10" />
+      <node id="7077315457911179944" at="6,0,12,0" concept="12" />
+      <node id="7077315457911179944" at="14,0,22,0" concept="28" />
+      <node id="7077315457911179944" at="23,0,31,0" concept="28" />
+      <node id="7077315457911179944" at="32,0,40,0" concept="28" />
+      <unit id="7077315457911179944" at="1,0,42,0" name="_01_Arch.Rte_a05_arch_blinkySWC" />
+    </file>
+    <file name="a05_arch.c">
+      <node id="7077315457911159649" at="6,0,6,161" concept="17" />
+      <node id="7077315457911159649" at="6,132,6,160" concept="8" />
+      <node id="7077315457911224878" at="6,133,6,149" concept="18" />
+      <node id="7077315457911224878" at="6,133,6,159" concept="4" />
+      <node id="7077315457911159649" at="7,0,7,101" concept="17" />
+      <node id="7077315457911159649" at="7,78,7,100" concept="8" />
+      <node id="9016658227719285041" at="7,79,7,99" concept="1" />
+      <node id="9016658227719285041" at="7,95,7,97" concept="18" />
+      <unit id="7077315457911159649" at="1,0,8,0" name="_01_Arch.a05_arch" />
+    </file>
+    <file name="a05_arch.h">
+      <node id="7077315457911159649" at="27,0,27,68" concept="27" />
+      <node id="7077315457911159649" at="28,0,28,56" concept="27" />
+      <node id="7077315457911159649" at="29,0,29,79" concept="27" />
+      <node id="7077315457911159649" at="30,0,30,67" concept="27" />
+      <node id="7077315457911159649" at="31,0,31,73" concept="27" />
+      <node id="7077315457911159649" at="32,0,32,61" concept="27" />
+      <node id="7077315457911159649" at="33,0,33,173" concept="17" />
+      <node id="7077315457911159649" at="33,115,33,172" concept="8" />
+      <node id="7077315457911185753" at="33,116,33,137" concept="18" />
+      <node id="7077315457911185753" at="33,116,33,149" concept="4" />
+      <node id="7077315457911159649" at="33,116,33,171" concept="0" />
+      <node id="7077315457911159649" at="33,152,33,171" concept="18" />
+    </file>
+  </root>
+  <root nodeRef="r:fb78fff6-9664-464a-85d2-ca4eb86ef7cc(_01_Arch)/7077315457911160244">
+    <file name="a00_units.c">
+      <node id="7077315457911182896" at="5,0,6,0" concept="13" />
+      <node id="7077315457911160281" at="7,0,8,0" concept="13" />
+      <unit id="7077315457911160244" at="1,0,9,0" name="_01_Arch.a00_units" />
+    </file>
+    <file name="a00_units.h">
+      <node id="7077315457911160314" at="17,0,17,40" concept="17" />
+      <node id="7077315457911171467" at="17,27,17,32" concept="8" />
+      <node id="7077315457911171500" at="17,27,17,39" concept="3" />
+      <node id="7077315457911171467" at="17,28,17,31" concept="18" />
+      <node id="7077315457911171506" at="17,35,17,39" concept="7" />
+      <node id="7077315457911172293" at="18,0,18,40" concept="17" />
+      <node id="7077315457911172570" at="18,27,18,32" concept="8" />
+      <node id="7077315457911172603" at="18,27,18,39" concept="6" />
+      <node id="7077315457911172570" at="18,28,18,31" concept="18" />
+      <node id="7077315457911172609" at="18,35,18,39" concept="7" />
+    </file>
+  </root>
+</debug-info>
+
